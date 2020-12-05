@@ -26,7 +26,7 @@
 }
 
 .bg-pink {
-  background-color: var(--dfa-pink);
+  background-color: var(--dfa-light-pink);
 }
 
 .bg-green {
@@ -34,7 +34,7 @@
 }
 
 .bg-blue {
-  background-color: var(--dfa-blue);
+  background-color: var(--dfa-light-blue);
 }
 
 .text-dark-yellow {
@@ -55,10 +55,32 @@
 
 /* GLOBAL STYLES */
 
+body {
+  background-image: url('img/bg-test.svg');
+  background-size: 100%;
+  /*background-attachment: fixed;*/
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+/*
 a.active, a:hover {
   text-decoration: underline !important;
 }
+*/
 
+/* override bootstrap lead paragraph style */
+.lead {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+img.content-img {
+  object-fit: cover;
+  width: 100%;
+}
 
 /* Carousel */
 
@@ -130,14 +152,130 @@ a.active, a:hover {
   object-fit: cover;
 }
 
+.carousel-spacer {
+  background-color: var(--dfa-pink);
+}
+
 /* Content styles */
 
-.intro b {
-  font-weight: 600;
+.postit-section {
+  width: 80%;
+  margin: 3rem auto 4rem auto;
+  padding: 2rem;
+  position: relative;
 }
 
-.first-sentence {
-  font-size: 1.5rem;
-  font-weight: 500;
+.corner-topleft {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 0;
 }
 
+.corner-bottomleft {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 0;
+}
+
+.postit-blue {
+  background-color: var(--dfa-light-blue);
+  box-shadow:  10px 10px 0 0 var(--dfa-dark-blue);
+  color: black;
+}
+
+.postit-orange {
+  background-color: var(--dfa-light-orange);
+  box-shadow:  10px 10px 0 0 var(--dfa-dark-orange);
+  color: black;
+}
+
+.postit-yellow {
+  background-color: var(--dfa-yellow);
+  box-shadow:  10px 10px 0 0 var(--dfa-dark-yellow);
+  color: black;
+}
+
+.postit-green {
+  background-color: var(--dfa-green);
+  box-shadow:  10px 10px 0 0 var(--dfa-dark-green);
+  color: black;
+}
+
+.postit-purple {
+  background-color:  var(--dfa-light-purple);
+  box-shadow: 10px 10px 0 0 var(--dfa-dark-purple);
+  color: black;
+}
+
+.postit-pink {
+  background-color:  var(--dfa-light-pink);
+  box-shadow: 10px 10px 0 0 var(--dfa-dark-pink);
+  color: black;
+}
+
+
+.postit-blue .corner-topleft {
+  border-top: 2.5em solid var(--dfa-blue);
+  border-right: 2.5em solid transparent;
+}
+
+.postit-blue .corner-bottomleft {
+  border-bottom: 2.5em solid var(--dfa-blue);
+  border-right: 2.5em solid transparent;
+}
+
+.btn, .postit-blue .btn {
+  background-color: var(--dfa-blue);
+  color: white !important;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+/* about page people, override bootstrap card styles ugh */
+.card-dfa-person {
+  align-items: center;
+  border: none;
+  border-radius: unset;
+  background-color: unset;
+}
+
+.card-dfa-person .card-img-top {
+  width: 75%;
+  min-width: 100px;
+  border-radius: 50%
+}
+
+.card-dfa-person .card-body {
+  padding: 0.75rem 0 2rem 0;
+}
+
+.card-dfa-person p {
+  margin: 0;
+}
+
+.brick-title {
+  width: 20rem;
+}
+
+.brick-title img {
+  width: 100%;
+}
+
+.title-current-members {
+  transform: matrix(1, -0.04, 0.04, 1, 0, 0); /* tilt left */
+}
+
+.title-alumni {
+  transform: matrix(1, 0.04, -0.04, 1, 0, 0); /* tilt right */
+}
+
+.dfa-list-projects .row {
+  height: 12rem;
+}
+
+.title-year img{
+  height: 8rem;
+}
