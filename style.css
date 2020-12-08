@@ -19,6 +19,7 @@
   --dfa-light-blue: #B4DFFF;
   --dfa-light-orange: #FFCC6A;
   --dfa-light-purple: #ECA4FF;
+  --dfa-logo-bg: #1B3862;
 }
 
 .bg-yellow {
@@ -37,21 +38,6 @@
   background-color: var(--dfa-light-blue);
 }
 
-.text-dark-yellow {
-  color: var(--dfa-dark-yellow) !important;
-}
-
-.text-dark-pink {
-  color: var(--dfa-dark-pink) !important;
-}
-
-.text-dark-green {
-  color: var(--dfa-dark-green)!important;
-}
-
-.text-dark-blue {
-  color: var(--dfa-dark-blue) !important;
-}
 
 /* GLOBAL STYLES */
 
@@ -80,6 +66,50 @@ a.active, a:hover {
 img.content-img {
   object-fit: cover;
   width: 100%;
+}
+
+/* Navbar */
+.navbar .navbar-brand {
+  background-color: var(--dfa-logo-bg);
+  padding: 0.5rem;
+}
+
+.navbar .navbar-nav .nav-item {
+  margin: 0 3px 0 3px;
+}
+
+.navbar .navbar-nav .nav-link {
+  /* override bootstrap */
+  color: black;
+  padding: 0.5rem;
+}
+
+.navbar.bg-pink .navbar-nav .nav-link:focus,
+.navbar.bg-pink .navbar-nav .nav-link:hover,
+.navbar.bg-pink .navbar-nav .nav-link.active {
+  background-color: var(--dfa-dark-pink);
+  color: white;
+}
+
+.navbar.bg-blue .navbar-nav .nav-link:focus,
+.navbar.bg-blue .navbar-nav .nav-link:hover,
+.navbar.bg-blue .navbar-nav .nav-link.active {
+  background-color: var(--dfa-dark-blue);
+  color: white;
+}
+
+.navbar.bg-yellow .navbar-nav .nav-link:focus,
+.navbar.bg-yellow .navbar-nav .nav-link:hover,
+.navbar.bg-yellow .navbar-nav .nav-link.active {
+  background-color: var(--dfa-dark-yellow);
+  color: white;
+}
+
+.navbar.bg-green .navbar-nav .nav-link:focus,
+.navbar.bg-green .navbar-nav .nav-link:hover,
+.navbar.bg-green .navbar-nav .nav-link.active {
+  background-color: var(--dfa-dark-green);
+  color: white;
 }
 
 /* Carousel */
@@ -217,7 +247,6 @@ img.content-img {
   color: black;
 }
 
-
 .postit-blue .corner-topleft {
   border-top: 2.5em solid var(--dfa-blue);
   border-right: 2.5em solid transparent;
@@ -263,6 +292,8 @@ img.content-img {
 .brick-title img {
   width: 100%;
 }
+
+/* titles */
 
 .title-current-members {
   transform: matrix(1, -0.04, 0.04, 1, 0, 0); /* tilt left */
