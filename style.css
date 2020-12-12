@@ -169,18 +169,48 @@ img.content-img {
 }
 
 /* Declare heights because of positioning of img element */
+
 .carousel-item {
-  height: 32rem;
+  height: 38rem; /* height of carousel*/
   background-color: #777;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
+
+.carousel-item-1 {
+  background-image: url(/img/carousel_1.jpg);
+}
+
+.carousel-item-2 {
+  background-image: url(/img/carousel_2.jpg);
+}
+
+.carousel-item-3 {
+  background-image: url(/img/carousel_3.jpg);
+}
+
+.carousel-item-4 {
+  background-image: url(/img/carousel_4.jpg);
+}
+
+.carousel-item-5 {
+  background-image: url(/img/carousel_5.jpg);
+}
+
+.carousel-item-6 {
+  background-image: url(/img/carousel_6.jpg);
+}
+
+/*
 .carousel-item > img {
   position: absolute;
   top: 0;
   left: 0;
   min-width: 100%;
-  height: 32rem;
   object-fit: cover;
 }
+*/
 
 .carousel-spacer {
   background-color: var(--dfa-pink);
@@ -286,7 +316,7 @@ img.content-img {
 }
 
 .brick-title {
-  width: 20rem;
+  width: 15rem;
 }
 
 .brick-title img {
