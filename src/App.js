@@ -6,8 +6,8 @@ import { About } from './pages/About'
 import { Projects } from './pages/Projects'
 import { Project } from './pages/Project'
 import { Outreach } from './pages/Outreach'
-import { NavBar } from './pages/NavBar'
-import { Footer } from './pages/Footer'
+import { NavBar } from './components/NavBar'
+import { Footer } from './components/Footer'
 
 function App() {
   return (

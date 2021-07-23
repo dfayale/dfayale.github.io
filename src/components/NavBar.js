@@ -6,7 +6,7 @@ export const NavBar = () => {
       <nav class="navbar navbar-expand-md navbar-light bg-pink">
         <a class="navbar-brand" href="/">
           <img
-            src="/img/dfayale-title.svg"
+            src="img/dfayale-title.svg"
             alt="Design for America | Yale"
             height="30"
             class="d-inline-block align-top"
