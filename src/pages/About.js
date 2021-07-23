@@ -1,4 +1,6 @@
 import React from 'react'
+import CurrentBoard from '../img/current-board.svg'
+import Alumni from '../img/alumni.svg'
 
 export const About = () => {
   return (
@@ -30,7 +32,7 @@ export const About = () => {
       <section>
         <div class="d-flex justify-content-center">
           <div class="brick-title title-current-members">
-            <img src="/img/current-board.svg" />
+            <img src={CurrentBoard} />
             <span class="sr-only">Current Board</span>
           </div>
         </div>
@@ -40,7 +42,7 @@ export const About = () => {
               <div class="card card-dfa-person">
                 <img
                   class="card-img-top"
-                  src="./img/headshots/sharon.jpeg"
+                  src="/headshots/sharon.jpeg"
                   alt="a person"
                 />
                 <div class="card-body text-center">
@@ -53,7 +55,7 @@ export const About = () => {
               <div class="card card-dfa-person">
                 <img
                   class="card-img-top"
-                  src="./img/headshots/sam.jpeg"
+                  src="/headshots/sam.jpeg"
                   alt="a person"
                 />
                 <div class="card-body text-center">
@@ -66,7 +68,7 @@ export const About = () => {
               <div class="card card-dfa-person">
                 <img
                   class="card-img-top"
-                  src="./img/headshots/steph.jpeg"
+                  src="/headshots/steph.jpeg"
                   alt="a person"
                 />
                 <div class="card-body text-center">
@@ -79,7 +81,7 @@ export const About = () => {
               <div class="card card-dfa-person">
                 <img
                   class="card-img-top"
-                  src="/img/person-test.jpg"
+                  src="/headshots/person-test.jpg"
                   alt="a person"
                 />
                 <div class="card-body text-center">
@@ -92,7 +94,7 @@ export const About = () => {
               <div class="card card-dfa-person">
                 <img
                   class="card-img-top"
-                  src="./img/headshots/wesley.jpeg"
+                  src="/headshots/wesley.jpeg"
                   alt="a person"
                 />
                 <div class="card-body text-center">
@@ -105,7 +107,7 @@ export const About = () => {
               <div class="card card-dfa-person">
                 <img
                   class="card-img-top"
-                  src="./img/headshots/doris.jpeg"
+                  src="/headshots/doris.jpeg"
                   alt="a person"
                 />
                 <div class="card-body text-center">
@@ -118,7 +120,7 @@ export const About = () => {
               <div class="card card-dfa-person">
                 <img
                   class="card-img-top"
-                  src="./img/headshots/anna.png"
+                  src="/headshots/anna.png"
                   alt="a person"
                 />
                 <div class="card-body text-center">
@@ -131,7 +133,7 @@ export const About = () => {
               <div class="card card-dfa-person">
                 <img
                   class="card-img-top"
-                  src="./img/headshots/chris.jpg"
+                  src="/headshots/chris.jpg"
                   alt="a person"
                 />
                 <div class="card-body text-center">
@@ -144,7 +146,7 @@ export const About = () => {
               <div class="card card-dfa-person">
                 <img
                   class="card-img-top"
-                  src="/img/person-test.jpg"
+                  src="/headshots/lydia.jpeg"
                   alt="a person"
                 />
                 <div class="card-body text-center">
@@ -157,7 +159,7 @@ export const About = () => {
               <div class="card card-dfa-person">
                 <img
                   class="card-img-top"
-                  src="./img/headshots/thuy.jpeg"
+                  src="/headshots/thuy.jpeg"
                   alt="a person"
                 />
                 <div class="card-body text-center">
@@ -170,7 +172,7 @@ export const About = () => {
               <div class="card card-dfa-person">
                 <img
                   class="card-img-top"
-                  src="./img/headshots/jen.jpeg"
+                  src="/headshots/jen.jpeg"
                   alt="a person"
                 />
                 <div class="card-body text-center">
@@ -183,7 +185,7 @@ export const About = () => {
               <div class="card card-dfa-person">
                 <img
                   class="card-img-top"
-                  src="/img/person-test.jpg"
+                  src="/headshots/david.png"
                   alt="a person"
                 />
                 <div class="card-body text-center">
@@ -196,7 +198,7 @@ export const About = () => {
               <div class="card card-dfa-person">
                 <img
                   class="card-img-top"
-                  src="./img/headshots/catherine.jpeg"
+                  src="/headshots/catherine.jpeg"
                   alt="a person"
                 />
                 <div class="card-body text-center">
@@ -212,7 +214,7 @@ export const About = () => {
       <section>
         <div class="d-flex justify-content-center">
           <div class="brick-title title-alumni">
-            <img src="/img/alumni.svg" />
+            <img src={Alumni} />
             <span class="sr-only">Alumni</span>
           </div>
         </div>
@@ -250,7 +252,7 @@ export const About = () => {
               <div class="card card-dfa-person">
                 <img
                   class="card-img-top"
-                  src="./img/headshots/nathan.jpeg"
+                  src="/headshots/nathan.jpeg"
                   alt="a person"
                 />
                 <div class="card-body text-center">
@@ -264,7 +266,7 @@ export const About = () => {
               <div class="card card-dfa-person">
                 <img
                   class="card-img-top"
-                  src="./img/headshots/elizabeth_qw.jpg"
+                  src="/headshots/elizabeth_qw.jpg"
                   alt="a person"
                 />
                 <div class="card-body text-center">

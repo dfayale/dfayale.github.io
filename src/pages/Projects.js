@@ -1,4 +1,6 @@
 import React from 'react'
+import First from '../img/brick-2019-2020.svg'
+import Second from '../img/brick-2018-2019.svg'
 
 export const Projects = () => {
   return (
@@ -23,8 +25,9 @@ export const Projects = () => {
             <div class="col-sm-4 d-flex align-items-center justify-content-end">
               <div class="brick-title title-year">
                 <img
-                  src="/img/brick-2019-2020.svg"
-                  style="transform: rotate(-3deg); margin-top: -9px;"
+                  src={First}
+                  alt=""
+                  // style="transform: rotate(-3deg); margin-top: -9px;"
                 />
                 <span class="sr-only">2019-2020</span>
               </div>
@@ -55,8 +58,9 @@ export const Projects = () => {
             <div class="col-sm-4 d-flex align-items-center justify-content-end">
               <div class="brick-title title-year">
                 <img
-                  src="/img/brick-2018-2019.svg"
-                  style="transform: rotate(2deg); margin-bottom: -10px"
+                  src={Second}
+                  alt=""
+                  // style="transform: rotate(2deg); margin-bottom: -10px"
                 />
                 <span class="sr-only">2018-2019</span>
               </div>
@@ -86,7 +90,8 @@ export const Projects = () => {
               <div class="brick-title title-year">
                 <img
                   src="/img/brick-2017-2018.svg"
-                  style="transform: rotate(5deg); margin-top: -10px"
+                  alt=""
+                  // style="transform: rotate(5deg); margin-top: -10px"
                 />
                 <span class="sr-only">2017-2018</span>
               </div>
@@ -116,7 +121,8 @@ export const Projects = () => {
               <div class="brick-title title-year">
                 <img
                   src="/img/brick-2016-2017.svg"
-                  style="transform: rotate(-5deg); margin-top: -10px"
+                  alt=""
+                  // style="transform: rotate(-5deg); margin-top: -10px"
                 />
                 <span class="sr-only">2016-2017</span>
               </div>

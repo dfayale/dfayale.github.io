@@ -1,4 +1,8 @@
 import React from 'react'
+import WhoAreWe from '../img/home_1.jpg'
+import HumanCenteredDesign from '../img/home_2.jpg'
+import WhatDoWeDo from '../img/home_3.jpg'
+import HowDoIJoin from '../img/home_4.jpg'
 
 export const Home = () => {
   return (
@@ -64,14 +68,14 @@ export const Home = () => {
             </div>
             <div class="col-6 px-4">
               <div>
-                <img src="/img/home_1.jpg" alt="" class="content-img" />
+                <img src={WhoAreWe} alt="" class="content-img" />
               </div>
             </div>
           </div>
           <div class="row mb-5">
             <div class="col-6 px-4">
               <div>
-                <img src="/img/home_2.jpg" alt="" class="content-img" />
+                <img src={HumanCenteredDesign} alt="" class="content-img" />
               </div>
             </div>
             <div class="col-6 px-4 d-flex align-items-center">
@@ -113,14 +117,14 @@ export const Home = () => {
             </div>
             <div class="col-6 px-4">
               <div>
-                <img src="/img/home_3.jpg" alt="" class="content-img" />
+                <img src={WhatDoWeDo} alt="" class="content-img" />
               </div>
             </div>
           </div>
           <div class="row">
             <div class="col-6 px-4">
               <div>
-                <img src="/img/home_4.jpg" alt="" class="content-img" />
+                <img src={HowDoIJoin} alt="" class="content-img" />
               </div>
             </div>
             <div class="col-6 px-4 d-flex align-items-center">
@@ -151,15 +155,6 @@ export const Home = () => {
         <div class="postit-section postit-orange">
           <div class="row mb-5">
             <div class="col-6 px-4">
-              <h3>Meetings</h3>
-              <p>
-                We meet in Yale's Center for Engineering, Innovation, and Design
-                twice a week: once as an entire studio (Tuesdays 7-8 PM), and
-                once in individual project teams to work on our year-long
-                projects.
-              </p>
-            </div>
-            <div class="col-6 px-4">
               <h3>Projects</h3>
               <p>
                 We work on 4-6 projects per year with 5-7 students on each team.
@@ -169,8 +164,6 @@ export const Home = () => {
                 project.
               </p>
             </div>
-          </div>
-          <div class="row">
             <div class="col-6 px-4">
               <h3>Workshops</h3>
               <p>
@@ -180,6 +173,8 @@ export const Home = () => {
                 ideation, and more.
               </p>
             </div>
+          </div>
+          <div class="row">
             <div class="col-6 px-4">
               <h3>Speakers</h3>
               <p>
@@ -187,6 +182,15 @@ export const Home = () => {
                 professionals in various design industries (graphic design,
                 architecture, research, etc.). We also collaborate with other
                 university organizations to help run design-related events.
+              </p>
+            </div>
+            <div class="col-6 px-4">
+              <h3>Meetings</h3>
+              <p>
+                We meet in Yale's Center for Engineering, Innovation, and Design
+                twice a week: once as an entire studio (Tuesdays 7-8 PM), and
+                once in individual project teams to work on our year-long
+                projects.
               </p>
             </div>
           </div>
