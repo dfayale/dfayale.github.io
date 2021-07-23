@@ -42,30 +42,6 @@ export const Home = () => {
 
       <div class="container-fluid p-3 bg-pink"></div>
 
-      <section class="intro p-5 bg-green">
-        <div class="container-fluid">
-          <div class="row justify-content-center">
-            <div class="col-md-8 text-left mb-3">
-              <p class="emphasis">
-                DFA is an interdisciplinary group of undergraduate + graduate
-                students who design and implement local, sustainable projects
-                with the potential for national impact.{' '}
-              </p>
-
-              <p class="lead">
-                We believe in the power of <b>Human-Centered Design</b> to make
-                positive social change, and regularly collaborate with the New
-                Haven and Yale community to learn + teach design thinking
-                strategies. We are part of a{' '}
-                <a href="http://designforamerica.com/">national network</a> of
-                passionate young thinkers moving beyond the classroom to reshape
-                the way college students engage with our communities.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
       <section>
         <div class="postit-section postit-blue">
           <div class="corner-topleft" />
