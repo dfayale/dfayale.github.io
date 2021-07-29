@@ -1,8 +1,9 @@
 import React from 'react'
 import First from '../img/brick-2019-2020.svg'
 import Second from '../img/brick-2018-2019.svg'
+import { ProjectContent } from '../content/content'
 
-export const Projects = () => {
+export const ProjectsOld = () => {
   return (
     <main role="main">
       <section>
@@ -151,4 +152,13 @@ export const Projects = () => {
       </section>
     </main>
   )
+}
+
+export const Projects = () => {
+  const primaryImages = []
+  for (const [projectName, details] of Object.entries(ProjectContent)) {
+    console.log(`${projectName}: ${details}`)
+    primaryImages.push(<img src={details.imageLinks[0]} />)
+  }
+  return primaryImages
 }
