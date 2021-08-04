@@ -35,7 +35,7 @@
 }
 
 .bg-blue {
-  background-color: var(--dfa-light-blue);
+  background-color: var(--dfa-dark-blue);
 }
 
 /* GLOBAL STYLES */
@@ -51,7 +51,9 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+small,
+a {
   font-family: 'Josefin Sans', sans-serif;
 }
 
@@ -84,7 +86,7 @@ img.content-img {
 
 .navbar .navbar-nav .nav-link {
   /* override bootstrap */
-  color: black;
+  color: white;
   padding: 0.5rem;
 }
 
@@ -202,7 +204,7 @@ img.content-img {
   background-image: url(./img/carousel_5.jpg);
 }
 
-.carousel-item-6 {
+.carousel-item-5 {
   background-image: url(./img/carousel_6.jpg);
   background-position: right 50% bottom 10%; /* for elizabeth's forehead lmao */
 }
@@ -345,4 +347,12 @@ img.content-img {
 
 .title-year img {
   height: 8rem;
+}
+
+.group-photo {
+  max-width: 100%;
+}
+
+.footer {
+  color: white;
 }

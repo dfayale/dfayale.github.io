@@ -3,6 +3,7 @@ import WhoAreWe from '../img/home_1.jpg'
 import HumanCenteredDesign from '../img/home_2.jpg'
 import WhatDoWeDo from '../img/home_3.jpg'
 import HowDoIJoin from '../img/home_4.jpg'
+import GroupPhoto from '../img/carousel_5.jpg'
 
 export const Home = () => {
   return (
@@ -14,7 +15,6 @@ export const Home = () => {
           <li data-target="#myCarousel" data-slide-to="2"></li>
           <li data-target="#myCarousel" data-slide-to="3"></li>
           <li data-target="#myCarousel" data-slide-to="4"></li>
-          <li data-target="#myCarousel" data-slide-to="5"></li>
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item carousel-item-1 active" />
@@ -22,7 +22,6 @@ export const Home = () => {
           <div class="carousel-item carousel-item-3" />
           <div class="carousel-item carousel-item-4" />
           <div class="carousel-item carousel-item-5" />
-          <div class="carousel-item carousel-item-6" />
         </div>
         <a
           class="carousel-control-prev"
@@ -43,8 +42,6 @@ export const Home = () => {
           <span class="sr-only">Next</span>
         </a>
       </div>
-
-      <div class="container-fluid p-3 bg-pink"></div>
 
       <section>
         <div class="postit-section postit-blue">
@@ -197,7 +194,7 @@ export const Home = () => {
         </div>
       </section>
       <section>
-        <div class="postit-section postit-yellow">group picture</div>
+        <img class="group-photo" src={GroupPhoto} />
       </section>
     </main>
   )

@@ -98,4 +98,19 @@ export const ProjectContent = {
       '/projects/landscape5.jpeg',
     ],
   },
+  //   peabody: {
+  //     title: 'Yale Peabody Museum',
+  //     summary:
+  //       "The Peabody Museum is recognized as a leading science and research institution. Our team worked extensively with museum staff to bridge the gap between the museum's user experiences and stakeholder expectations in order to create a more engaging, immersive user experience. The challenge we encountered: How Might We Immerse Visitors into a Relevant, Current, and Compelling Story Inspired by the Peabody’s Research?",
+  //     description:
+  //       "Over the course of two weeks, our team members conducted interviews with users (museum-goers), otential users (students, community members), and stakeholders (museum staff).",
+  //     imageLinks: [
+  //       '/projects/landscape-primary.jpeg',
+  //       '/projects/landscape1.jpeg',
+  //       '/projects/landscape2.jpeg',
+  //       '/projects/landscape3.jpeg',
+  //       '/projects/landscape4.jpeg',
+  //       '/projects/landscape5.jpeg',
+  //     ],
+  //   },
 }

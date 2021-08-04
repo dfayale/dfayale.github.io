@@ -158,7 +158,12 @@ export const Projects = () => {
   const primaryImages = []
   for (const [projectName, details] of Object.entries(ProjectContent)) {
     console.log(`${projectName}: ${details}`)
-    primaryImages.push(<img src={details.imageLinks[0]} />)
+    const path = '/projects/' + projectName
+    primaryImages.push(
+      <a href={path}>
+        <img src={details.imageLinks[0]} />
+      </a>
+    )
   }
   return primaryImages
 }

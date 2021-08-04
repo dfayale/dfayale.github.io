@@ -4,7 +4,7 @@ import YaleLogo from '../img/dfayale-title.svg'
 export const NavBar = () => {
   return (
     <header>
-      <nav class="navbar navbar-expand-md navbar-light bg-pink">
+      <nav class="navbar navbar-expand-md navbar-light bg-blue">
         <a class="navbar-brand" href="/">
           <img
             src={YaleLogo}
