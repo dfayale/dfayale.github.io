@@ -81,7 +81,11 @@ export const ProjectContent = {
       'In 2018 and 2019, we worked with Haven’s Harvest to develop an adaptive information campaign that will help engage and inform large corporate food donors, like the Yale professional schools.',
     description:
       'During our interviews, we quickly realized that donors, especially large organizations, value time and efficiency. While food donation can be a complex process, we had to find a way to deliver key information to donors in a simple, and visually appealing way. Our final product, the Haven’s Harvest flyer, targeted large donors by highlighting the three simple “Action Steps” of food donation. Once the donor understands that food donation will not impede their everyday operations, they are much more likely to partner with Haven’s Harvest. The flyer also includes testimonials from both food donors and food recipients, showing the process from beginning to end. Our chapter of Design for America connected Haven’s Harvest with several Yale professional schools towards the end of the year. Beginning in the fall of 2019, Yale’s Slifka Center will be donating their food waste to Haven’s Harvest.',
-    imageLinks: ['/projects/harvest-primary.png', '/projects/harvest1.png'],
+    imageLinks: [
+      '/projects/harvest-primary.png',
+      '/projects/harvest1.png',
+      '/projects/harvest2.png',
+    ],
   },
   landscape: {
     title: 'Yale Landscape Lab',

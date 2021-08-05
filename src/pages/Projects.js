@@ -165,5 +165,5 @@ export const Projects = () => {
       </a>
     )
   }
-  return primaryImages
+  return <div class="project-links">{primaryImages}</div>
 }
