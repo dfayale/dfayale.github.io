@@ -364,10 +364,11 @@ img.content-img {
   justify-content: center;
   align-items: center;
   width: 100%;
-  padding: 5px;
+  padding: 10px;
 }
 
 .project-links img {
   width: 200px;
   margin: 10px;
+  border-radius: 10px;
 }
