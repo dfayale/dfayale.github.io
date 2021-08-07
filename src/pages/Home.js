@@ -149,7 +149,7 @@ export const Home = () => {
       </section>
 
       <section>
-        <div class="postit-section postit-orange">
+        <div class="postit-section postit-blue">
           <div class="row mb-5">
             <div class="col-6 px-4">
               <h3>Projects</h3>

@@ -1,4 +1,5 @@
 import React from 'react'
+import Test from '../img/person-test.jpg'
 
 export const Outreach = () => {
   return (
@@ -40,65 +41,27 @@ export const Outreach = () => {
       </section>
 
       <section>
-        <div class="postit-section postit-pink">
-          <div class="row">
-            <div class="col-6 p-5">
+        <div class="outreach-postit">
+          <div class="outreach-container">
+            <div class="outreach-text">
               <h3>Yale Pathways to Science</h3>
               <p>
                 a nice sentence Lorem ipsum dolor sit amet consectetur
                 adipisicing elit. Vitae, dignissimos?
               </p>
             </div>
-            <div class="col-6 p-3">
-              <img class="content-img" src="./img/test.png" alt="" />
+            <div class="outreach-child">
+              <img class="content-img" src={Test} alt="" />
             </div>
-            <div class="col-6 p-3">
-              <img class="content-img" src="./img/test.png" alt="" />
+            <div class="outreach-child">
+              <img class="content-img" src={Test} alt="" />
             </div>
-            <div class="col-6 p-3">
-              <img class="content-img" src="./img/test.png" alt="" />
-            </div>
-          </div>
-        </div>
-
-        <div class="postit-section postit-blue">
-          <div class="row">
-            <div class="col-6 p-5">
+            <div class="outreach-text">
               <h3>YHack: Undergraduate Hackathon at Yale University</h3>
               <p>
                 a nice sentence Lorem ipsum dolor sit amet consectetur
                 adipisicing elit. Vitae, dignissimos?
               </p>
-            </div>
-            <div class="col-6 p-3">
-              <img class="content-img" src="./img/test.png" alt="" />
-            </div>
-            <div class="col-6 p-3">
-              <img class="content-img" src="./img/test.png" alt="" />
-            </div>
-          </div>
-        </div>
-
-        <div class="postit-section postit-orange">
-          <div class="row">
-            <div class="col-6 p-5">
-              <h3>outreach outreach outreach</h3>
-              <p>
-                a nice sentence Lorem ipsum dolor sit amet consectetur
-                adipisicing elit. Vitae, dignissimos?
-              </p>
-            </div>
-            <div class="col-6 p-3">
-              <img class="content-img" src="./img/test.png" alt="" />
-            </div>
-            <div class="col-6 p-3">
-              <img class="content-img" src="./img/test.png" alt="" />
-            </div>
-            <div class="col-6 p-3">
-              <img class="content-img" src="./img/test.png" alt="" />
-            </div>
-            <div class="col-6 p-3">
-              <img class="content-img" src="./img/test.png" alt="" />
             </div>
           </div>
         </div>

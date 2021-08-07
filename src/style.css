@@ -372,3 +372,28 @@ img.content-img {
   margin: 10px;
   border-radius: 10px;
 }
+
+.outreach-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 0px;
+  background-color: var(--dfa-light-blue);
+  color: black;
+}
+
+.outreach-text {
+  width: 50%;
+  padding: 2rem;
+  background-color: var(--dfa-light-blue);
+}
+
+.outreach-child {
+  width: 50%;
+}
+
+.outreach-postit {
+  width: 100%;
+  margin: 3rem auto 4rem auto;
+  position: relative;
+}
