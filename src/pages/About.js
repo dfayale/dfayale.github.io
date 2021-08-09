@@ -1,8 +1,24 @@
 import React from 'react'
-import CurrentBoard from '../img/current-board.svg'
-import Alumni from '../img/alumni.svg'
+import CurrentBoardImage from '../img/current-board.svg'
+import AlumniImage from '../img/alumni.svg'
+import { CurrentBoard, Alumni } from '../content/content'
 
-export const About = () => {
+const getBoard = () => {
+  const board = []
+  for (const member of CurrentBoard) {
+    board.push(
+      <div>
+        <img src={member.headshotLink} />
+        <p class="text-center">{member.name}</p>
+        <p class="text-center font-weight-bold">{member.role}</p>
+      </div>
+    )
+  }
+  return board
+}
+
+export const AboutOld = () => {
+  getBoard()
   return (
     <main role="main">
       <section>
@@ -32,7 +48,7 @@ export const About = () => {
       <section>
         <div class="d-flex justify-content-center">
           <div class="brick-title title-current-members">
-            <img src={CurrentBoard} />
+            <img src={CurrentBoardImage} />
             <span class="sr-only">Current Board</span>
           </div>
         </div>
@@ -214,7 +230,7 @@ export const About = () => {
       <section>
         <div class="d-flex justify-content-center">
           <div class="brick-title title-alumni">
-            <img src={Alumni} />
+            <img src={AlumniImage} />
             <span class="sr-only">Alumni</span>
           </div>
         </div>
@@ -308,4 +324,8 @@ export const About = () => {
       </section>
     </main>
   )
+}
+
+export const About = () => {
+  return <div class="about-headshots">{getBoard()}</div>
 }

@@ -169,3 +169,106 @@ export const ProjectContent = {
     imageLinks: ['/projects/shelter-primary.png'],
   },
 }
+
+export const CurrentBoard = [
+  {
+    name: 'Sharon Handoko',
+    role: 'Co-President',
+    headshotLink: '/headshots/sharon.jpeg',
+  },
+  {
+    name: 'Sam Adrianzen',
+    role: 'Co-President',
+    headshotLink: '/headshots/sam.jpeg',
+  },
+  {
+    name: 'Stephanie Hu',
+    role: 'Curriculum Chair',
+    headshotLink: '/headshots/steph.jpeg',
+  },
+  {
+    name: 'Juanita Castaneda Norena',
+    role: 'Curriculum Chair',
+    headshotLink: '',
+  },
+  {
+    name: 'Wesley Wong',
+    role: 'Treasurer',
+    headshotLink: '/headshots/wesley.jpeg',
+  },
+  {
+    name: 'Doris Chen',
+    role: 'Team Lead',
+    headshotLink: '/headshots/doris.jpeg',
+  },
+  {
+    name: 'Anna Zhang',
+    role: 'Team Lead',
+    headshotLink: '/headshots/anna.png',
+  },
+  {
+    name: 'Christopher Nathan',
+    role: 'Team Lead',
+    headshotLink: '/headshots/chris.jpg',
+  },
+  {
+    name: 'Lydia Lee',
+    role: 'Team Lead',
+    headshotLink: '/headshots/lydia.jpeg',
+  },
+  {
+    name: 'Thuy Pham',
+    role: 'Team Lead',
+    headshotLink: '/headshots/thuy.jpeg',
+  },
+  { name: 'Jen Wang', role: 'Team Lead', headshotLink: '/headshots/jen.jpeg' },
+  {
+    name: 'David Peng',
+    role: 'Team Lead',
+    headshotLink: '/headshots/david.png',
+  },
+  {
+    name: 'Catherine Wang',
+    role: 'Team Lead',
+    headshotLink: '/headshots/catherine.jpeg',
+  },
+]
+
+export const Alumni = [
+  {
+    name: 'Linna Yao',
+    previous_role: 'Co-President 2020-2021',
+    current_role: 'Senior Advisor',
+    headshotLink: '',
+  },
+  {
+    name: 'Sophie Lai',
+    previous_role: 'Co-President 2020-2021',
+    current_role: 'Senior Advisor',
+    headshotLink: '',
+  },
+  {
+    name: 'Nathan Paumier',
+    previous_role: 'Co-President 2019-2020',
+    current_role: 'Senior Advisor',
+    headshotLink: '',
+  },
+  {
+    name: 'Elizabeth Qian-Wang',
+    previous_role: 'Co-President 2019-2020',
+    current_role: 'Senior Advisor',
+    headshotLink: '',
+  },
+  {
+    name: 'Elizabeth Brooks',
+    previous_role: 'Co-President 2018-2019',
+    current_role: 'Senior Advisor',
+    headshotLink: '',
+  },
+  {
+    name: 'Lance Tan',
+    previous_role: '',
+    current_role: 'Senior Advisor',
+    headshotLink: '',
+  },
+]

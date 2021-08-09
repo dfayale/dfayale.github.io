@@ -53,7 +53,8 @@ h4,
 h5,
 h6,
 small,
-a {
+a,
+p {
   font-family: 'Josefin Sans', sans-serif;
 }
 
@@ -355,6 +356,24 @@ img.content-img {
 
 .footer {
   color: white;
+}
+
+.about-headshots {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 10px;
+  justify-content: center;
+}
+
+.about-headshots img {
+  width: 150px;
+  border-radius: 50%;
+  margin: 10px;
+}
+
+.about-headshots p {
+  margin: 0;
 }
 
 .project-links {
