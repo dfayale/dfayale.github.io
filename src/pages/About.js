@@ -3,10 +3,10 @@ import CurrentBoardImage from '../img/current-board.svg'
 import AlumniImage from '../img/alumni.svg'
 import { CurrentBoard, Alumni } from '../content/content'
 
-const getBoard = () => {
-  const board = []
-  for (const member of CurrentBoard) {
-    board.push(
+const getHeadshots = (directory) => {
+  const members = []
+  for (const member of directory) {
+    members.push(
       <div>
         <img src={member.headshotLink} />
         <p class="text-center">{member.name}</p>
@@ -14,11 +14,10 @@ const getBoard = () => {
       </div>
     )
   }
-  return board
+  return members
 }
 
 export const AboutOld = () => {
-  getBoard()
   return (
     <main role="main">
       <section>
@@ -327,5 +326,10 @@ export const AboutOld = () => {
 }
 
 export const About = () => {
-  return <div class="about-headshots">{getBoard()}</div>
+  return (
+    <div>
+      <div class="about-headshots">{getHeadshots(CurrentBoard)}</div>
+      <div class="about-headshots">{getHeadshots(Alumni)}</div>
+    </div>
+  )
 }

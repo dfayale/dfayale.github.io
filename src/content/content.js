@@ -251,13 +251,13 @@ export const Alumni = [
     name: 'Nathan Paumier',
     previous_role: 'Co-President 2019-2020',
     current_role: 'Senior Advisor',
-    headshotLink: '',
+    headshotLink: '/headshots/nathan.jpeg',
   },
   {
     name: 'Elizabeth Qian-Wang',
     previous_role: 'Co-President 2019-2020',
     current_role: 'Senior Advisor',
-    headshotLink: '',
+    headshotLink: '/headshots/elizabeth_qw.jpg',
   },
   {
     name: 'Elizabeth Brooks',
