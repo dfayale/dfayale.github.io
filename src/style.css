@@ -336,10 +336,12 @@ img.content-img {
 
 .title-current-members {
   transform: matrix(1, -0.04, 0.04, 1, 0, 0); /* tilt left */
+  margin: 30px;
 }
 
 .title-alumni {
   transform: matrix(1, 0.04, -0.04, 1, 0, 0); /* tilt right */
+  margin: 30px;
 }
 
 .dfa-list-projects .row {
@@ -364,16 +366,22 @@ img.content-img {
   width: 100%;
   padding: 10px;
   justify-content: center;
+  text-align: center;
 }
 
 .about-headshots img {
-  width: 150px;
+  width: 160px;
   border-radius: 50%;
   margin: 10px;
 }
 
 .about-headshots p {
-  margin: 0;
+  margin: 0 auto;
+  width: 90%;
+}
+
+.about-header {
+  margin-top: 48px;
 }
 
 .project-links {
