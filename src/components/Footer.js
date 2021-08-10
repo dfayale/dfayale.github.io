@@ -14,6 +14,8 @@ export const Footer = () => {
         </div>
         <h5 class="footer">Design for America at Yale</h5>
         <small class="footer">
+          <a href="/attribution"> Icon Attribution</a>
+          <br />
           Site designed by Elizabeth Brooks, Lance Tan, Linna Yao, and
           Christopher Nathan
         </small>

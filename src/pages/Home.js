@@ -4,6 +4,10 @@ import HumanCenteredDesign from '../img/home_2.jpg'
 import WhatDoWeDo from '../img/home_3.jpg'
 import HowDoIJoin from '../img/home_4.jpg'
 import GroupPhoto from '../img/carousel_5.jpg'
+import Meetings from '../img/meetings.svg'
+import Workshops from '../img/workshops.png'
+import Speakers from '../img/speakers.png'
+import Projects from '../img/projects.png'
 
 export const Home = () => {
   return (
@@ -150,7 +154,8 @@ export const Home = () => {
 
       <section>
         <div class="postit-section postit-blue">
-          <div class="row mb-5">
+          <div class="icon-container">
+            <img src={Projects} />
             <div class="col-6 px-4">
               <h3>Projects</h3>
               <p>
@@ -161,6 +166,7 @@ export const Home = () => {
                 project.
               </p>
             </div>
+            <img src={Workshops} />
             <div class="col-6 px-4">
               <h3>Workshops</h3>
               <p>
@@ -170,8 +176,7 @@ export const Home = () => {
                 ideation, and more.
               </p>
             </div>
-          </div>
-          <div class="row">
+            <img src={Speakers} />
             <div class="col-6 px-4">
               <h3>Speakers</h3>
               <p>
@@ -181,6 +186,7 @@ export const Home = () => {
                 university organizations to help run design-related events.
               </p>
             </div>
+            <img src={Meetings} />
             <div class="col-6 px-4">
               <h3>Meetings</h3>
               <p>

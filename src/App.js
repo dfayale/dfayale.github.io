@@ -6,6 +6,7 @@ import { About } from './pages/About'
 import { Projects } from './pages/Projects'
 import { Project } from './pages/Project'
 import { Outreach } from './pages/Outreach'
+import { Attribution } from './pages/Attribution'
 import { NavBar } from './components/NavBar'
 import { Footer } from './components/Footer'
 
@@ -25,6 +26,9 @@ function App() {
         </Route>
         <Route exact path="/outreach">
           <Outreach />
+        </Route>
+        <Route exact path="/attribution">
+          <Attribution />
         </Route>
         <Route path="/">
           <Home />

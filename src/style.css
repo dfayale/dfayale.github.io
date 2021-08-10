@@ -424,3 +424,12 @@ img.content-img {
   margin: 3rem auto 4rem auto;
   position: relative;
 }
+
+.icon-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.icon-container img {
+  width: 100px;
+}
