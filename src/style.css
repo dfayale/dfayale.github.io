@@ -428,8 +428,24 @@ img.content-img {
 .icon-container {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 .icon-container img {
-  width: 100px;
+  width: 30%;
+  object-fit: contain;
+  padding: 20px;
+}
+
+.icon-description {
+  width: 50%;
+}
+
+.attribution h1 {
+  padding: 10px;
+}
+
+.attribution p {
+  margin-left: 10px;
 }

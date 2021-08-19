@@ -1,7 +1,7 @@
 import React from 'react'
 
 export const Attribution = () => (
-  <div>
+  <div class="attribution">
     <h1>Icon Attribution</h1>
     <p>
       <a

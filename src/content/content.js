@@ -189,7 +189,7 @@ export const CurrentBoard = [
   {
     name: 'Juanita Castaneda Norena',
     role: 'Curriculum Chair',
-    headshotLink: '',
+    headshotLink: '/headshots/juanita.jpeg',
   },
   {
     name: 'Wesley Wong',
@@ -239,7 +239,7 @@ export const Alumni = [
     name: 'Linna Yao',
     previous_role: 'Co-President 2020-2021',
     current_role: 'Senior Advisor',
-    headshotLink: '',
+    headshotLink: '/headshots/linna.jpg',
   },
   {
     name: 'Sophie Lai',

@@ -155,8 +155,7 @@ export const Home = () => {
       <section>
         <div class="postit-section postit-blue">
           <div class="icon-container">
-            <img src={Projects} />
-            <div class="col-6 px-4">
+            <div class="icon-description">
               <h3>Projects</h3>
               <p>
                 We work on 4-6 projects per year with 5-7 students on each team.
@@ -166,8 +165,9 @@ export const Home = () => {
                 project.
               </p>
             </div>
+            <img src={Projects} />
             <img src={Workshops} />
-            <div class="col-6 px-4">
+            <div class="icon-description">
               <h3>Workshops</h3>
               <p>
                 We hold workshops for all ages, from the Yale School of
@@ -176,8 +176,7 @@ export const Home = () => {
                 ideation, and more.
               </p>
             </div>
-            <img src={Speakers} />
-            <div class="col-6 px-4">
+            <div class="icon-description">
               <h3>Speakers</h3>
               <p>
                 We run speaker events throughout the year, bringing in
@@ -186,8 +185,9 @@ export const Home = () => {
                 university organizations to help run design-related events.
               </p>
             </div>
+            <img src={Speakers} />
             <img src={Meetings} />
-            <div class="col-6 px-4">
+            <div class="icon-description">
               <h3>Meetings</h3>
               <p>
                 We meet in Yale's Center for Engineering, Innovation, and Design
