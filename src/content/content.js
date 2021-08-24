@@ -42,9 +42,11 @@ export const ProjectContent = {
     imageLinks: ['/projects/edgewood-primary.png'],
   },
   pathways: {
-    title: '',
-    summary: '',
-    description: '',
+    title: 'Pathways to Science',
+    summary:
+      'Promoting STEM education for middle and high school students in the New Haven area',
+    description:
+      'This past year, Team Pathways partnered with Yale Pathways to Science to promote science, technology, engineering, and math education for middle and high school students in the New Haven area. Challenged with the task of a virtual environment, the team carefully curated three, online mini-series over the course of the school year to teach New Haven students how to use the design thinking process. Each workshop taught the students how to immerse in and reframe their problem space, to prototype in collaborative applications like TinkerCAD, and to build and iterate refined products including physical models, 3D modeled worlds, and video games. See the three mini-series below.',
     imageLinks: ['/projects/pathways-primary.jpeg'],
   },
   clinic: {
@@ -76,23 +78,39 @@ export const ProjectContent = {
       '/projects/pw3.png',
     ],
   },
-  pg: {
-    title: '',
-    summary: '',
-    description: '',
-    imageLinks: ['/projects/iris-primary.jpeg'],
-  },
   iris: {
+    title: 'Integrated Refugee and Immigrant Services of New Haven (IRIS)',
+    summary:
+      'How can we enhance IRIS’ communications system toward improved organizational efficiency & impactful community outreach? ',
+    description:
+      'In 2019, DFA worked with the Integrated Refugee and Immigrant Services of New Haven, “a non-sectarian, independent nonprofit refugee resettlement agency that has welcomed more than 5,000 refugees to Connecticut since 1982.” IRIS aims to provide a haven for refugees and immigrants. DFA and IRIS collaborated to help IRIS find new, reliable ways to reach their clients and maintain important channels of communication to disseminate vital information. DFA found that IRIS exhausted already busy full-time staff attempting to reach clients already settled in the community, and, after an a site visit and interviews with IRIS employees, decided to tackle: How can we enhance IRIS’ communications system toward improved organizational efficiency & impactful community outreach? The IRIS team decided to focus on designing more “relatable” IRIS community events- giving clients a voice in the activities they participate in, and to plan to introduce a dedicated event planning liaison position to work in conjunction with community representatives.',
+    imageLinks: [
+      '/projects/iris-primary.jpeg',
+      '/projects/iris1.jpeg',
+      '/projects/iris2.jpeg',
+      '/projects/iris3.png',
+    ],
+  },
+  pg: {
     title: '',
     summary: '',
     description: '',
     imageLinks: ['/projects/pg-primary.jpeg'],
   },
   reads: {
-    title: '',
-    summary: '',
-    description: '',
-    imageLinks: ['/projects/reads-primary.jpeg'],
+    title: 'New Haven Reads',
+    summary:
+      'We worked with New Haven Reads, a local literacy nonprofit, to develop a handbook for incoming volunteers containing information and resources for them as they joined as well as an outreach "kit" of print and social media graphics to help recruit more volunteers',
+    description:
+      'The design process was really interesting because we were able to talk with the volunteers and staff to get a better sense of what they might need in order to focus down on our final scope. Unfortunately, the project was somewhat interrupted by COVID, but we managed to produce the handbook by the end of the semester and then we continued over the summer to design a set of outreach materials. Overall, NHR was a great partner and does crucial work in the community, and we were glad to be able to contribute!',
+    imageLinks: [
+      '/projects/reads-primary.jpeg',
+      '/projects/reads1.png',
+      '/projects/reads2.png',
+      '/projects/reads3.png',
+      '/projects/reads4.png',
+      '/projects/reads5.png',
+    ],
   },
   bikeshare: {
     title: 'Noa Technologies + Yale Office of Sustainability Bikeshare',
@@ -259,7 +277,7 @@ export const Alumni = [
     current_role: 'Senior Advisor',
     headshotLink: '/headshots/elizabeth_qw.jpg',
   },
-  {
+  /*{
     name: 'Elizabeth Brooks',
     previous_role: 'Co-President 2018-2019',
     current_role: 'Senior Advisor',
@@ -270,5 +288,5 @@ export const Alumni = [
     previous_role: '',
     current_role: 'Senior Advisor',
     headshotLink: '',
-  },
+  },*/
 ]

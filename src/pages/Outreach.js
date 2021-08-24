@@ -1,5 +1,7 @@
 import React from 'react'
-import Test from '../img/person-test.jpg'
+import YHack from '../img/yhack.jpeg'
+
+const Pathways = '/projects/pathways-primary.jpeg'
 
 export const Outreach = () => {
   return (
@@ -46,21 +48,33 @@ export const Outreach = () => {
             <div class="outreach-text">
               <h3>Yale Pathways to Science</h3>
               <p>
-                a nice sentence Lorem ipsum dolor sit amet consectetur
-                adipisicing elit. Vitae, dignissimos?
+                This past year, we partnered with Yale Pathways to Science to
+                promote science, technology, engineering, and math education for
+                middle and high school students in the New Haven area.
+                Challenged with the task of a virtual environment, the team
+                carefully curated three, online mini-series over the course of
+                the school year to teach New Haven students how to use the
+                design thinking process. Each workshop taught the students how
+                to immerse in and reframe their problem space, to prototype in
+                collaborative applications like TinkerCAD, and to build and
+                iterate refined products including physical models, 3D modeled
+                worlds, and video games.
               </p>
             </div>
             <div class="outreach-child">
-              <img class="content-img" src={Test} alt="" />
+              <img class="content-img" src={Pathways} alt="" />
             </div>
             <div class="outreach-child">
-              <img class="content-img" src={Test} alt="" />
+              <img class="content-img" src={YHack} alt="" />
             </div>
             <div class="outreach-text">
               <h3>YHack: Undergraduate Hackathon at Yale University</h3>
               <p>
-                a nice sentence Lorem ipsum dolor sit amet consectetur
-                adipisicing elit. Vitae, dignissimos?
+                The YHack event is a 36-hour hackathon that brings together
+                students from all over the U.S. with different backgrounds
+                together to create and build. Our club has partnered with the
+                YHack organization to drive interest in the hackathon and
+                participation among DFA studio members across the country.
               </p>
             </div>
           </div>
