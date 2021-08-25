@@ -160,9 +160,19 @@ export const Projects = () => {
     console.log(`${projectName}: ${details}`)
     const path = '/projects/' + projectName
     primaryImages.push(
-      <a href={path}>
-        <img src={details.imageLinks[0]} />
-      </a>
+      <div class="project-pic">
+        <a href={path}>
+          <img src={details.imageLinks[0]} />
+        </a>
+        <a href={path}>
+          <div class="project-pic_overlay">
+            <div class="project-pic_title">Title</div>
+            <p class="project-pic_description">
+              This is a project description.
+            </p>
+          </div>
+        </a>
+      </div>
     )
   }
   return <div class="project-links">{primaryImages}</div>
