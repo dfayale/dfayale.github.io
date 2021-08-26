@@ -15,10 +15,7 @@ export const Projects = () => {
         </a>
         <a href={path}>
           <div class="project-pic_overlay">
-            <div class="project-pic_title">Title</div>
-            <p class="project-pic_description">
-              This is a project description.
-            </p>
+            <p class="project-pic_description">{details.summary}</p>
           </div>
         </a>
       </div>

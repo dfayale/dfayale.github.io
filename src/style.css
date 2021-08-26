@@ -424,11 +424,15 @@ img.content-img {
 
 .project-pic_overlay:hover {
   opacity: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.project-pic_title {
-  font-size: 2em;
+.project-pic_description {
+  font-size: 1.2em;
   font-weight: bold;
+  text-align: center;
 }
 
 .outreach-container {
