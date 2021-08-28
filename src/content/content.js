@@ -5,6 +5,7 @@ export const ProjectContent = {
     description:
       "Team worked in collaboration with the Connecticut Small Business Development Center (CTSBDC) to provide support for small business in the New Haven community. The team underwent a full redesign of CTSBDC's Marketplace website, which is home to promotional material for small businesses in the area. This work included the addition of a blog feature to the new site, and expansion of accessibility for businesses to benefit from the program. The team also compiled a small business guide containing content on physical as well as online presence, to be distributed to small businesses on behalf of the CTSBDC.",
     imageLinks: ['/projects/ctsbdc-primary.jpeg'],
+    year: '2020-2021',
   },
   unilever: {
     title: 'Unilever National Project',
@@ -19,6 +20,7 @@ export const ProjectContent = {
       '/projects/unilever4.png',
       '/projects/unilever5.png',
     ],
+    year: '2020-2021',
   },
   uri_nucleus: {
     title:
@@ -34,12 +36,14 @@ export const ProjectContent = {
       '/projects/uri3.png',
       '/projects/uri4.png',
     ],
+    year: '2020-2021',
   },
   edgewood: {
-    title: 'Edgewood Park',
+    title: 'Friends of Edgewood Park',
     summary: 'Strengthening park branding and awareness',
     description: '',
     imageLinks: ['/projects/edgewood-primary.png'],
+    year: '2020-2021',
   },
   pathways: {
     title: 'Pathways to Science',
@@ -48,6 +52,7 @@ export const ProjectContent = {
     description:
       'This past year, Team Pathways partnered with Yale Pathways to Science to promote science, technology, engineering, and math education for middle and high school students in the New Haven area. Challenged with the task of a virtual environment, the team carefully curated three, online mini-series over the course of the school year to teach New Haven students how to use the design thinking process. Each workshop taught the students how to immerse in and reframe their problem space, to prototype in collaborative applications like TinkerCAD, and to build and iterate refined products including physical models, 3D modeled worlds, and video games. See the three mini-series below.',
     imageLinks: ['/projects/pathways-primary.jpeg'],
+    year: '2020-2021',
   },
   clinic: {
     title: 'Haven Free Clinic',
@@ -64,6 +69,7 @@ export const ProjectContent = {
       '/projects/clinic5.png',
       '/projects/clinic6.png',
     ],
+    year: '2019-2020',
   },
   peels_and_wheels: {
     title: 'Peels and Wheels',
@@ -77,6 +83,7 @@ export const ProjectContent = {
       '/projects/pw2.png',
       '/projects/pw3.png',
     ],
+    year: '2019-2020',
   },
   iris: {
     title: 'Integrated Refugee and Immigrant Services of New Haven (IRIS)',
@@ -90,17 +97,19 @@ export const ProjectContent = {
       '/projects/iris2.jpeg',
       '/projects/iris3.png',
     ],
+    year: '2019-2020',
   },
   pg: {
     title: 'Proctor and Gamble National Project',
     summary: 'Developing a system for recycling plastic film',
     description: '',
     imageLinks: ['/projects/pg-primary.jpeg'],
+    year: '2019-2020',
   },
   reads: {
     title: 'New Haven Reads',
     summary:
-      'Developing an onboarding handbook for volunteers and branded outreach campaign',
+      'Developing a branded outreach campaign and onboarding handbook for volunteers',
     description:
       'We worked with New Haven Reads, a local literacy nonprofit, to develop a handbook for incoming volunteers containing information and resources for them as they joined as well as an outreach "kit" of print and social media graphics to help recruit more volunteers. The design process was really interesting because we were able to talk with the volunteers and staff to get a better sense of what they might need in order to focus down on our final scope. Unfortunately, the project was somewhat interrupted by COVID, but we managed to produce the handbook by the end of the semester and then we continued over the summer to design a set of outreach materials. Overall, NHR was a great partner and does crucial work in the community, and we were glad to be able to contribute!',
     imageLinks: [
@@ -111,6 +120,7 @@ export const ProjectContent = {
       '/projects/reads4.png',
       '/projects/reads5.png',
     ],
+    year: '2019-2020',
   },
   bikeshare: {
     title: 'Noa Technologies + Yale Office of Sustainability Bikeshare',
@@ -122,6 +132,7 @@ export const ProjectContent = {
       '/projects/bikeshare1.jpeg',
       '/projects/bikeshare2.jpeg',
     ],
+    year: '2018-2019',
   },
   harvest: {
     title: 'Haven’s Harvest',
@@ -133,6 +144,7 @@ export const ProjectContent = {
       '/projects/harvest1.png',
       '/projects/harvest2.png',
     ],
+    year: '2018-2019',
   },
   landscape: {
     title: 'Yale Landscape Lab',
@@ -149,6 +161,7 @@ export const ProjectContent = {
       '/projects/landscape5.jpeg',
       '/projects/landscape6.jpeg',
     ],
+    year: '2018-2019',
   },
   peabody: {
     title: 'Yale Peabody Museum',
@@ -156,6 +169,7 @@ export const ProjectContent = {
     description:
       "The Peabody Museum is recognized as a leading science and research institution. Our team worked extensively with museum staff to bridge the gap between the museum's user experiences and stakeholder expectations in order to create a more engaging, immersive user experience. The challenge we encountered: How Might We Immerse Visitors into a Relevant, Current, and Compelling Story Inspired by the Peabody’s Research? Over the course of two weeks, our team members conducted interviews with users (museum-goers), otential users (students, community members), and stakeholders (museum staff).",
     imageLinks: ['/projects/peabody-primary.jpeg'],
+    year: '2017-2018',
   },
   hospital: {
     title: 'Reducing Readmission Rates for Opiate Addicts',
@@ -164,6 +178,7 @@ export const ProjectContent = {
     description:
       'Currently, prescription pain medication abuse, as well as heroin use, are growing epidemics in the United States. How can we address this epidemic on a local scale, reducing readmission rates of addicts to Yale New Haven Hospital?',
     imageLinks: ['/projects/hospital-primary.jpeg'],
+    year: '2017-2018',
   },
   bethel: {
     title: 'Reducing Childhood Trauma in Homeless Shelters',
@@ -172,6 +187,7 @@ export const ProjectContent = {
     description:
       'Members of our Beth-El Center team worked with a local homeless shelter in Milford, CT to help reduce childhood trauma. Over the course of the project, our team realized that we could not simply make the environment as appealing as possible to children because they might then create excessive positive associations with homeless shelters. Instead, we needed to focus on creating a comforting and nurturing environment for children. After prototyping an idea for a portable bathroom light and a coloring book, we delivered a coloring book to the Beth-El Center designed to acclimate children to the shelter more quickly.',
     imageLinks: ['/projects/bethel-primary.png'],
+    year: '2016-2017',
   },
   koffee: {
     title: '',
@@ -179,12 +195,14 @@ export const ProjectContent = {
       'Creating random human connections and a sense of community in a coffee shop',
     description: '',
     imageLinks: ['/projects/koffee-primary.jpeg'],
+    year: '2016-2017',
   },
   shelter: {
     title: '',
     summary: 'Improving the Learning Center of the New Reach Center',
     description: '',
     imageLinks: ['/projects/shelter-primary.png'],
+    year: '2016-2017',
   },
 }
 
