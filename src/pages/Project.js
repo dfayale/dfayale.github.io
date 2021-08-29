@@ -17,10 +17,10 @@ export const Project = (props) => {
   const images = getImages(imageLinks)
   return (
     <main>
-      <h1>{title}</h1>
-      <h3>{summary}</h3>
-      <p>{description}</p>
-      {images}
+      <h1 class="project-title">{title}</h1>
+      <h3 class="project-summary">{summary}</h3>
+      <p class="project-description">{description}</p>
+      <div class="project-img"> {images} </div>
     </main>
   )
 }
