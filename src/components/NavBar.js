@@ -10,7 +10,7 @@ export const NavBar = () => {
             src={YaleLogo}
             alt="Design for America | Yale"
             height="30"
-            class="d-inline-block align-top"
+            class="yale-logo d-inline-block align-top"
           />
           <span class="sr-only">Design for America Yale</span>
         </a>

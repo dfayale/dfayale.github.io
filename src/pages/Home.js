@@ -51,102 +51,83 @@ export const Home = () => {
         <div class="postit-section postit-blue">
           <div class="corner-topleft" />
           <div class="corner-bottomleft" />
-          <div class="row mb-5">
-            <div class="col-6 px-4 d-flex align-items-center">
-              <div>
-                <h3>Who are we?</h3>
-                <p>
-                  We’re an interdisciplinary group of Yale University students
-                  who believe in the power of human-centered design to make
-                  positive social change.
-                </p>
-                <p>
-                  <a class="btn btn-lg" href="/about/">
-                    Learn more
-                  </a>
-                </p>
-              </div>
+          <div class="home-container">
+            <div class="home-text">
+              <h3>Who are we?</h3>
+              <p>
+                We’re an interdisciplinary group of Yale University students who
+                believe in the power of human-centered design to make positive
+                social change.
+              </p>
+              <p>
+                <a class="home-button btn btn-lg" href="/about/">
+                  Learn more
+                </a>
+              </p>
             </div>
-            <div class="col-6 px-4">
-              <div>
-                <img src={WhoAreWe} alt="" class="content-img" />
-              </div>
+            <div class="home-photo">
+              <img src={WhoAreWe} alt="" class="content-img" />
             </div>
-          </div>
-          <div class="row mb-5">
-            <div class="col-6 px-4">
-              <div>
-                <img src={HumanCenteredDesign} alt="" class="content-img" />
-              </div>
+            <div class="home-photo">
+              <img src={HumanCenteredDesign} alt="" class="content-img" />
             </div>
-            <div class="col-6 px-4 d-flex align-items-center">
-              <div>
-                <h3>Human-centered design?</h3>
-                <p>
-                  Human-centered design is an approach to building things that
-                  starts with the people you’re designing for and ends with new
-                  solutions that are tailor made to suit their needs.
-                </p>
-                <p>
-                  It’s all about forming deep empathy with the people you’re
-                  designing for, thinking up wacky but promising ideas, building
-                  lots of prototypes, and eventually putting your new solution
-                  out in the real world.
-                </p>
-              </div>
+            <div class="home-text">
+              <h3>Human-centered design?</h3>
+              <p>
+                Human-centered design is an approach to building things that
+                starts with the people you’re designing for and ends with new
+                solutions that are tailor made to suit their needs.
+              </p>
+              <p>
+                It’s all about forming deep empathy with the people you’re
+                designing for, thinking up wacky but promising ideas, building
+                lots of prototypes, and eventually putting your new solution out
+                in the real world.
+              </p>
             </div>
-          </div>
-          <div class="row mb-5">
-            <div class="col-6 px-4 d-flex align-items-center">
-              <div>
-                <h3>What do we do?</h3>
-                <p>
-                  We partner with New Haven-area nonprofit organizations to
-                  design, build, and implement solutions with the potential for
-                  national impact.
-                </p>
-                <p>
-                  We’ve worked with Y2Y New Haven, New Haven Free Clinic, New
-                  Haven Reads, and countless other community partners.
-                </p>
-                <p class="emphasis">
-                  <a class="btn btn-lg" href="/projects">
-                    See Projects
-                  </a>
-                </p>
-              </div>
+            <div class="home-text">
+              <h3>What do we do?</h3>
+              <p>
+                We partner with New Haven-area nonprofit organizations to
+                design, build, and implement solutions with the potential for
+                national impact.
+              </p>
+              <p>
+                We’ve worked with Y2Y New Haven, New Haven Free Clinic, New
+                Haven Reads, and countless other community partners.
+              </p>
+              <p class="emphasis">
+                <a class="home-button btn btn-lg" href="/projects">
+                  See Projects
+                </a>
+              </p>
             </div>
-            <div class="col-6 px-4">
-              <div>
-                <img src={WhatDoWeDo} alt="" class="content-img" />
-              </div>
+            <div class="home-photo">
+              <img src={WhatDoWeDo} alt="" class="content-img" />
             </div>
-          </div>
-          <div class="row">
-            <div class="col-6 px-4">
-              <div>
-                <img src={HowDoIJoin} alt="" class="content-img" />
-              </div>
+            <div class="home-photo">
+              <img src={HowDoIJoin} alt="" class="content-img" />
             </div>
-            <div class="col-6 px-4 d-flex align-items-center">
-              <div>
-                <h3>How do I join?</h3>
-                <p>
-                  We welcome all undergrad + grad students that are passionate
-                  about bringing positive change to the New Haven community. No
-                  design experience is required!
-                </p>
-                <p class="emphasis">
-                  <a class="btn btn-lg" href="https://www.facebook.com/DfaYale">
-                    Follow us on Facebook
-                  </a>
-                </p>
-                <p class="emphasis">
-                  <a class="btn btn-lg" href="">
-                    Sign up for our email list
-                  </a>
-                </p>
-              </div>
+            <div class="home-text">
+              <h3>How do I join?</h3>
+              <p>
+                We welcome all undergrad + grad students that are passionate
+                about bringing positive change to the New Haven community. No
+                design experience is required!
+              </p>
+              <p class="emphasis">
+                <a
+                  class="home-button btn btn-lg"
+                  href="https://www.facebook.com/DfaYale"
+                >
+                  Follow us on Facebook
+                </a>
+              </p>
+              <p class="emphasis">
+                <a class="home-button btn btn-lg" href="">
+                  Sign up for our email list
+                </a>
+              </p>
             </div>
           </div>
         </div>

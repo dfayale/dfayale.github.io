@@ -288,12 +288,12 @@ export const Alumni = [
     current_role: 'Senior Advisor',
     headshotLink: '/headshots/linna.jpg',
   },
-  {
+  /* {
     name: 'Sophie Lai',
     previous_role: 'Co-President 2020-2021',
     current_role: 'Senior Advisor',
     headshotLink: '',
-  },
+  },*/
   {
     name: 'Nathan Paumier',
     previous_role: 'Co-President 2019-2020',

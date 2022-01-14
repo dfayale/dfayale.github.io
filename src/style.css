@@ -233,6 +233,12 @@ img.content-img {
   position: relative;
 }
 
+@media (max-width: 884px) {
+  .postit-section {
+    width: 90%;
+  }
+}
+
 .corner-topleft {
   position: absolute;
   left: 0;
@@ -384,6 +390,10 @@ img.content-img {
   margin-top: 48px;
 }
 
+.yale-logo {
+  max-width: 100%;
+}
+
 .project-links {
   display: flex;
   flex-wrap: wrap;
@@ -445,6 +455,42 @@ img.content-img {
   font-weight: bold;
 }
 
+.home-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 0px;
+  color: black;
+  align-items: center;
+}
+
+.home-text {
+  width: 50%;
+  padding: 2rem;
+}
+
+.home-photo {
+  width: 50%;
+}
+
+.home-button {
+  width: auto;
+  max-width: 100%;
+  text-align: center;
+  overflow: scroll;
+}
+
+@media (max-width: 884px) {
+  .home-text {
+    width: 100%;
+    padding: 1rem;
+  }
+  .home-photo {
+    width: 100%;
+    padding: 5px;
+  }
+}
+
 .outreach-container {
   display: flex;
   flex-wrap: wrap;
@@ -452,6 +498,7 @@ img.content-img {
   margin: 0px;
   background-color: var(--dfa-light-blue);
   color: black;
+  align-items: center;
 }
 
 .outreach-text {
@@ -462,6 +509,15 @@ img.content-img {
 
 .outreach-child {
   width: 50%;
+}
+
+@media (max-width: 880px) {
+  .outreach-text {
+    width: 100%;
+  }
+  .outreach-child {
+    width: 100%;
+  }
 }
 
 .outreach-postit {
@@ -485,6 +541,17 @@ img.content-img {
 
 .icon-description {
   width: 50%;
+}
+
+@media (max-width: 884px) {
+  .icon-description {
+    width: 100%;
+    padding: 1rem;
+  }
+  .icon-container img {
+    width: 51%;
+    padding: 5px;
+  }
 }
 
 .attribution h1 {
