@@ -38,13 +38,13 @@ export const ProjectContent = {
     ],
     year: '2020-2021',
   },
-  edgewood: {
+  /*  edgewood: {
     title: 'Friends of Edgewood Park',
     summary: 'Strengthening park branding and awareness',
     description: '',
     imageLinks: ['/projects/edgewood-primary.png'],
     year: '2020-2021',
-  },
+  },*/
   pathways: {
     title: 'Pathways to Science',
     summary:
@@ -99,13 +99,13 @@ export const ProjectContent = {
     ],
     year: '2019-2020',
   },
-  pg: {
+  /* pg: {
     title: 'Proctor and Gamble National Project',
     summary: 'Developing a system for recycling plastic film',
     description: '',
     imageLinks: ['/projects/pg-primary.jpeg'],
     year: '2019-2020',
-  },
+  }, */
   reads: {
     title: 'New Haven Reads',
     summary:
@@ -167,8 +167,19 @@ export const ProjectContent = {
     title: 'Yale Peabody Museum',
     summary: 'Creating a more engaging, immersive museum experience',
     description:
-      "The Peabody Museum is recognized as a leading science and research institution. Our team worked extensively with museum staff to bridge the gap between the museum's user experiences and stakeholder expectations in order to create a more engaging, immersive user experience. The challenge we encountered: How Might We Immerse Visitors into a Relevant, Current, and Compelling Story Inspired by the Peabody’s Research? Over the course of two weeks, our team members conducted interviews with users (museum-goers), otential users (students, community members), and stakeholders (museum staff).",
-    imageLinks: ['/projects/peabody-primary.jpeg'],
+      "The Peabody Museum is recognized as a leading science and research institution. Our team worked extensively with museum staff to bridge the gap between the museum's user experiences and stakeholder expectations in order to create a more engaging, immersive user experience. The challenge we encountered: How Might We Immerse Visitors into a Relevant, Current, and Compelling Story Inspired by the Peabody’s Research? Over the course of two weeks, our team members conducted interviews with users (museum-goers), potential users (students, community members), and stakeholders (museum staff). We identified three types of potential users: Families with small children (more likely to engage with hands-on exhibits and activities), Students (motivated by school projects and other requirements, not necessarily interested in non work-related research), and highly-interested individuals (demonstrates high interest in content, and will read all, or most, of the exhibition descriptions ). We began to brainstorm possible solutions that would target each potential user group's needs and interests. We identified key discrepancies at the root of our problem. Stakeholder expectations for visitor experiences, and the average users' actual experiences, did not align. Users were attracted to the museum for the experiences it had to offer: soaring blockbuster dinosaur exhibits, the beautiful rocks and minerals collection, and more. Stakeholders wanted: users to engage with the exhibits on a deeper level, and to learn about current research at the Peabody. We set off to work ideating possible solutions to bridge this gap. Our Prototype: A web app to provide self-guided tours through the museum. Such an application would benefit all groups of interest by: getting rid of long descriptions and replacing them with small, easy to understand blurbs for each exhibit, providing a “Curated experience through the museum”herefore, creating a more interactive experience. We created three tour settings targeting each group with highlights aimed towards the everyday visitor and a mix of fun facts and engaging questions in easy-to-understand language.Tots: aimed towards visitors with young children (focus is on engaging questions so young children can interact with the exhibits). Deep Dive: focus is on research (aimed towards visitors who want to learn all the facts and background information). Content: scholarly information and behind-the-scenes photos.",
+    imageLinks: [
+      '/projects/peabody-primary.jpeg',
+      '/projects/peabody1.png',
+      '/projects/peabody2.png',
+      '/projects/peabody3.png',
+      '/projects/peabody4.png',
+      '/projects/peabody5.png',
+      '/projects/peabody6.png',
+      '/projects/peabody7.png',
+      '/projects/peabody8.png',
+      '/projects/peabody9.png',
+    ],
     year: '2017-2018',
   },
   hospital: {
@@ -176,7 +187,7 @@ export const ProjectContent = {
     summary:
       'Reducing readmission rates of opiate addicts to Yale New Haven Hospital',
     description:
-      'Currently, prescription pain medication abuse, as well as heroin use, are growing epidemics in the United States. How can we address this epidemic on a local scale, reducing readmission rates of addicts to Yale New Haven Hospital?',
+      'Currently, prescription pain medication abuse, as well as heroin use, are growing epidemics in the United States. How can we address this epidemic on a local scale, reducing readmission rates of addicts to Yale New Haven Hospital? Roughly 21-29% of patients prescribed opioids for chronic pain misuse them. Between 8-12% develop an opioid use disorder. ~4-6% who misuse prescription opioids transition to heroin. High rate of relapse related to neurobiological changes that accompany addiction. “40 to 60% of patients treated for addiction relapse within a year, and the rate is highest for tobacco addiction”. Onset, severity, and management of condition affected by interactions of biological and behavioral variables analogous to other chronic diseases. An individual’s treatment plan must be assessed continually and modified to ensure the plan meets the changing needs. From these interviews, we learned more about surgeries and drugs, sober houses, transportation to AA, volunteer calls, patient discharge after NARCAN, the problems of stigma and lack of education, and the significance of prior trauma plus mental health issues on opiate abuse. To focus our efforts, we wondered: How Can We increase patient’s utility from the hospital’s program, adapt the treatment to each individual patient, catch risk factors and give support before a relapse/follow-up effectively after patients have been discharged, and identify and target more at-risk groups? We reframed the problems, recognizing that our solution must: streamline volunteer process and boost morale.',
     imageLinks: ['/projects/hospital-primary.jpeg'],
     year: '2017-2018',
   },
