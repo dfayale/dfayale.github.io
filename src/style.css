@@ -22,18 +22,6 @@
   --dfa-logo-bg: #1b3862;
 }
 
-.bg-yellow {
-  background-color: var(--dfa-yellow);
-}
-
-.bg-pink {
-  background-color: var(--dfa-light-pink);
-}
-
-.bg-green {
-  background-color: var(--dfa-green);
-}
-
 .bg-blue {
   background-color: var(--dfa-dark-blue);
 }
@@ -91,13 +79,6 @@ img.content-img {
   padding: 0.5rem;
 }
 
-.navbar.bg-pink .navbar-nav .nav-link:focus,
-.navbar.bg-pink .navbar-nav .nav-link:hover,
-.navbar.bg-pink .navbar-nav .nav-link.active {
-  background-color: var(--dfa-dark-pink);
-  color: white;
-}
-
 .navbar.bg-blue .navbar-nav .nav-link:focus,
 .navbar.bg-blue .navbar-nav .nav-link:hover,
 .navbar.bg-blue .navbar-nav .nav-link.active {
@@ -105,75 +86,7 @@ img.content-img {
   color: white;
 }
 
-.navbar.bg-yellow .navbar-nav .nav-link:focus,
-.navbar.bg-yellow .navbar-nav .nav-link:hover,
-.navbar.bg-yellow .navbar-nav .nav-link.active {
-  background-color: var(--dfa-dark-yellow);
-  color: white;
-}
-
-.navbar.bg-green .navbar-nav .nav-link:focus,
-.navbar.bg-green .navbar-nav .nav-link:hover,
-.navbar.bg-green .navbar-nav .nav-link.active {
-  background-color: var(--dfa-dark-green);
-  color: white;
-}
-
 /* Carousel */
-
-.carousel-caption {
-  padding: 1rem;
-  font-size: 0.9em;
-  text-align: left;
-}
-
-.carousel-caption-1 {
-  position: absolute;
-  top: auto;
-  bottom: 4rem;
-  left: auto;
-  right: 8rem;
-  width: 13rem;
-  height: 8rem;
-  background-color: var(--dfa-dark-blue);
-  z-index: 10;
-
-  color: var(--dfa-light-blue);
-
-  box-shadow: 10px 10px 0 0px var(--dfa-blue);
-}
-
-.carousel-caption-2 {
-  position: absolute;
-  top: 2rem;
-  bottom: auto;
-  left: 9rem;
-  right: auto;
-  width: 13rem;
-  height: 8rem;
-  background-color: var(--dfa-light-orange);
-  z-index: 10;
-
-  color: var(--dfa-dark-orange);
-
-  box-shadow: 10px 10px 0 0px var(--dfa-orange);
-}
-
-.carousel-caption-3 {
-  position: absolute;
-  top: auto;
-  bottom: 4rem;
-  left: 8rem;
-  right: auto;
-  width: 13rem;
-  height: 8rem;
-  background-color: var(--dfa-dark-green);
-  z-index: 10;
-
-  color: var(--dfa-light-green);
-
-  box-shadow: 10px 10px 0 0px var(--dfa-green);
-}
 
 /* Declare heights because of positioning of img element */
 
@@ -208,20 +121,6 @@ img.content-img {
 .carousel-item-5 {
   background-image: url(./img/carousel_6.jpg);
   background-position: right 50% bottom 10%; /* for elizabeth's forehead lmao */
-}
-
-/*
-.carousel-item > img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  min-width: 100%;
-  object-fit: cover;
-}
-*/
-
-.carousel-spacer {
-  background-color: var(--dfa-pink);
 }
 
 /* Content styles */
@@ -261,36 +160,6 @@ img.content-img {
   color: black;
 }
 
-.postit-orange {
-  background-color: var(--dfa-light-orange);
-  box-shadow: 10px 10px 0 0 var(--dfa-dark-orange);
-  color: black;
-}
-
-.postit-yellow {
-  background-color: var(--dfa-yellow);
-  box-shadow: 10px 10px 0 0 var(--dfa-dark-yellow);
-  color: black;
-}
-
-.postit-green {
-  background-color: var(--dfa-green);
-  box-shadow: 10px 10px 0 0 var(--dfa-dark-green);
-  color: black;
-}
-
-.postit-purple {
-  background-color: var(--dfa-light-purple);
-  box-shadow: 10px 10px 0 0 var(--dfa-dark-purple);
-  color: black;
-}
-
-.postit-pink {
-  background-color: var(--dfa-light-pink);
-  box-shadow: 10px 10px 0 0 var(--dfa-dark-pink);
-  color: black;
-}
-
 .postit-blue .corner-topleft {
   border-top: 2.5em solid var(--dfa-blue);
   border-right: 2.5em solid transparent;
@@ -306,28 +175,6 @@ img.content-img {
   background-color: var(--dfa-blue);
   color: white !important;
   font-family: 'Josefin Sans', sans-serif;
-}
-
-/* about page people, override bootstrap card styles ugh */
-.card-dfa-person {
-  align-items: center;
-  border: none;
-  border-radius: unset;
-  background-color: unset;
-}
-
-.card-dfa-person .card-img-top {
-  width: 75%;
-  min-width: 100px;
-  border-radius: 50%;
-}
-
-.card-dfa-person .card-body {
-  padding: 0.75rem 0 2rem 0;
-}
-
-.card-dfa-person p {
-  margin: 0;
 }
 
 .brick-title {
@@ -348,14 +195,6 @@ img.content-img {
 .title-alumni {
   transform: matrix(1, 0.04, -0.04, 1, 0, 0); /* tilt right */
   margin: 30px;
-}
-
-.dfa-list-projects .row {
-  height: 12rem;
-}
-
-.title-year img {
-  height: 8rem;
 }
 
 .group-photo {
