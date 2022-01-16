@@ -119,12 +119,17 @@ export const Home = () => {
                 <a
                   class="home-button btn btn-lg"
                   href="https://www.facebook.com/DfaYale"
+                  target="_blank"
+                  rel="noreferrer"
                 >
                   Follow us on Facebook
                 </a>
               </p>
               <p class="emphasis">
-                <a class="home-button btn btn-lg" href="">
+                <a
+                  class="home-button btn btn-lg"
+                  href="mailto:yale@designformamerica.com"
+                >
                   Sign up for our email list
                 </a>
               </p>
@@ -146,8 +151,8 @@ export const Home = () => {
                 project.
               </p>
             </div>
-            <img src={Projects} />
-            <img src={Workshops} />
+            <img src={Projects} alt="Projects" />
+            <img src={Workshops} alt="Workshops" />
             <div class="icon-description">
               <h3>Workshops</h3>
               <p>
@@ -166,8 +171,8 @@ export const Home = () => {
                 university organizations to help run design-related events.
               </p>
             </div>
-            <img src={Speakers} />
-            <img src={Meetings} />
+            <img src={Speakers} alt="Speakers" />
+            <img src={Meetings} alt="Meetings" />
             <div class="icon-description">
               <h3>Meetings</h3>
               <p>
@@ -181,7 +186,7 @@ export const Home = () => {
         </div>
       </section>
       <section>
-        <img class="group-photo" src={GroupPhoto} />
+        <img class="group-photo" src={GroupPhoto} alt="group-pic" />
       </section>
     </main>
   )

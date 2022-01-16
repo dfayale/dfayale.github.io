@@ -7,6 +7,7 @@ export const Attribution = () => (
       <a
         href="https://thenounproject.com/term/light-bulb/16966/"
         target="_blank"
+        rel="noreferrer"
       >
         Light Bulb
       </a>{' '}
@@ -16,6 +17,7 @@ export const Attribution = () => (
       <a
         href="https://www.cleanpng.com/png-gear-icon-gears-png-file-114545/"
         target="_blank"
+        rel="noreferrer"
       >
         Gear
       </a>{' '}
@@ -25,6 +27,7 @@ export const Attribution = () => (
       <a
         href="https://findicons.com/icon/568695/megaphone2_filled"
         target="_blank"
+        rel="noreferrer"
       >
         Megaphone
       </a>{' '}

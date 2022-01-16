@@ -10,7 +10,7 @@ const getHeadshots = (directory) => {
     const previous_role = member.previous_role || ''
     members.push(
       <div>
-        <img src={member.headshotLink} />
+        <img src={member.headshotLink} alt="board member headshot" />
         <p>{member.name}</p>
         <p>{previous_role}</p>
         <p class="font-weight-bold">{current_role}</p>
@@ -45,14 +45,14 @@ export const About = () => {
       </div>
       <div class="d-flex justify-content-center">
         <div class="brick-title title-current-members">
-          <img src={CurrentBoardImage} />
+          <img src={CurrentBoardImage} alt="current board" />
           <span class="sr-only">Current Board</span>
         </div>
       </div>
       <div class="about-headshots">{getHeadshots(CurrentBoard)}</div>
       <div class="d-flex justify-content-center">
         <div class="brick-title title-alumni">
-          <img src={AlumniImage} />
+          <img src={AlumniImage} alt="alumni" />
           <span class="sr-only">Alumni</span>
         </div>
       </div>

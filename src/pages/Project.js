@@ -6,7 +6,7 @@ const getImages = (imageLinks) => {
   const images = []
   for (const imageLink of imageLinks) {
     console.log(imageLink)
-    images.push(<img src={imageLink} />)
+    images.push(<img src={imageLink} alt="project" />)
   }
   return images
 }

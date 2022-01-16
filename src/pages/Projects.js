@@ -1,6 +1,4 @@
 import React from 'react'
-import First from '../img/brick-2019-2020.svg'
-import Second from '../img/brick-2018-2019.svg'
 import { ProjectContent } from '../content/content'
 
 export const Projects = () => {
@@ -11,7 +9,7 @@ export const Projects = () => {
     primaryImages.push(
       <div class="project-pic">
         <a href={path}>
-          <img src={details.imageLinks[0]} />
+          <img src={details.imageLinks[0]} alt="project sample" />
         </a>
         <a href={path}>
           <div class="project-pic_overlay">
