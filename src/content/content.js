@@ -4,7 +4,16 @@ export const ProjectContent = {
     summary: 'Providing support for New Haven small businesses',
     description:
       "Team worked in collaboration with the Connecticut Small Business Development Center (CTSBDC) to provide support for small business in the New Haven community. The team underwent a full redesign of CTSBDC's Marketplace website, which is home to promotional material for small businesses in the area. This work included the addition of a blog feature to the new site, and expansion of accessibility for businesses to benefit from the program. The team also compiled a small business guide containing content on physical as well as online presence, to be distributed to small businesses on behalf of the CTSBDC.",
-    imageLinks: ['/projects/ctsbdc-primary.jpeg'],
+    imageLinks: [
+      '/projects/ctsbdc-primary.jpeg',
+      '/projects/ctsbdc1.png',
+      '/projects/ctsbdc2.png',
+      '/projects/ctsbdc3.png',
+      '/projects/ctsbdc4.png',
+      '/projects/ctsbdc5.png',
+      '/projects/ctsbdc6.png',
+      '/projects/ctsbdc7.png',
+    ],
     year: '2020-2021',
   },
   unilever: {
@@ -51,7 +60,15 @@ export const ProjectContent = {
       'Promoting STEM education for middle and high school students in the New Haven area',
     description:
       'This past year, Team Pathways partnered with Yale Pathways to Science to promote science, technology, engineering, and math education for middle and high school students in the New Haven area. Challenged with the task of a virtual environment, the team carefully curated three, online mini-series over the course of the school year to teach New Haven students how to use the design thinking process. Each workshop taught the students how to immerse in and reframe their problem space, to prototype in collaborative applications like TinkerCAD, and to build and iterate refined products including physical models, 3D modeled worlds, and video games. See the three mini-series below.',
-    imageLinks: ['/projects/pathways-primary.jpeg'],
+    imageLinks: [
+      '/projects/pathways-primary.jpeg',
+      '/projects/pathways1.png',
+      '/projects/pathways2.png',
+      '/projects/pathways3.png',
+      '/projects/pathways4.png',
+      '/projects/pathways5.png',
+      '/projects/pathways6.png',
+    ],
     year: '2020-2021',
   },
   clinic: {
@@ -167,7 +184,7 @@ export const ProjectContent = {
     title: 'Yale Peabody Museum',
     summary: 'Creating a more engaging, immersive museum experience',
     description:
-      "The Peabody Museum is recognized as a leading science and research institution. Our team worked extensively with museum staff to bridge the gap between the museum's user experiences and stakeholder expectations in order to create a more engaging, immersive user experience. The challenge we encountered: How Might We Immerse Visitors into a Relevant, Current, and Compelling Story Inspired by the Peabody’s Research? Over the course of two weeks, our team members conducted interviews with users (museum-goers), potential users (students, community members), and stakeholders (museum staff). We identified three types of potential users: Families with small children (more likely to engage with hands-on exhibits and activities), Students (motivated by school projects and other requirements, not necessarily interested in non work-related research), and highly-interested individuals (demonstrates high interest in content, and will read all, or most, of the exhibition descriptions ). We began to brainstorm possible solutions that would target each potential user group's needs and interests. We identified key discrepancies at the root of our problem. Stakeholder expectations for visitor experiences, and the average users' actual experiences, did not align. Users were attracted to the museum for the experiences it had to offer: soaring blockbuster dinosaur exhibits, the beautiful rocks and minerals collection, and more. Stakeholders wanted: users to engage with the exhibits on a deeper level, and to learn about current research at the Peabody. We set off to work ideating possible solutions to bridge this gap. Our Prototype: A web app to provide self-guided tours through the museum. Such an application would benefit all groups of interest by: getting rid of long descriptions and replacing them with small, easy to understand blurbs for each exhibit, providing a “Curated experience through the museum”herefore, creating a more interactive experience. We created three tour settings targeting each group with highlights aimed towards the everyday visitor and a mix of fun facts and engaging questions in easy-to-understand language.Tots: aimed towards visitors with young children (focus is on engaging questions so young children can interact with the exhibits). Deep Dive: focus is on research (aimed towards visitors who want to learn all the facts and background information). Content: scholarly information and behind-the-scenes photos.",
+      "The Peabody Museum is recognized as a leading science and research institution. Our team worked extensively with museum staff to bridge the gap between the museum's user experiences and stakeholder expectations in order to create a more engaging, immersive user experience. The challenge we encountered: How Might We Immerse Visitors into a Relevant, Current, and Compelling Story Inspired by the Peabody’s Research? Over the course of two weeks, our team members conducted interviews with users (museum-goers), potential users (students, community members), and stakeholders (museum staff). We identified three types of potential users: Families with small children (more likely to engage with hands-on exhibits and activities), Students (motivated by school projects and other requirements, not necessarily interested in non work-related research), and highly-interested individuals (demonstrates high interest in content, and will read all, or most, of the exhibition descriptions ). We began to brainstorm possible solutions that would target each potential user group's needs and interests. We identified key discrepancies at the root of our problem. Stakeholder expectations for visitor experiences, and the average users' actual experiences, did not align. Users were attracted to the museum for the experiences it had to offer: soaring blockbuster dinosaur exhibits, the beautiful rocks and minerals collection, and more. Stakeholders wanted: users to engage with the exhibits on a deeper level, and to learn about current research at the Peabody. We set off to work ideating possible solutions to bridge this gap. Our Prototype: A web app to provide self-guided tours through the museum. Such an application would benefit all groups of interest by: getting rid of long descriptions and replacing them with small, easy to understand blurbs for each exhibit, providing a “Curated experience through the museum”herefore, creating a more interactive experience. We created three tour settings targeting each group with highlights aimed towards the everyday visitor and a mix of fun facts and engaging questions in easy-to-understand language. 1) Tots: aimed towards visitors with young children (focus is on engaging questions so young children can interact with the exhibits). 2) Deep Dive: focus is on research (aimed towards visitors who want to learn all the facts and background information). 3) Content: scholarly information and behind-the-scenes photos.",
     imageLinks: [
       '/projects/peabody-primary.jpeg',
       '/projects/peabody1.png',
@@ -187,8 +204,19 @@ export const ProjectContent = {
     summary:
       'Reducing readmission rates of opiate addicts to Yale New Haven Hospital',
     description:
-      'Currently, prescription pain medication abuse, as well as heroin use, are growing epidemics in the United States. How can we address this epidemic on a local scale, reducing readmission rates of addicts to Yale New Haven Hospital? Roughly 21-29% of patients prescribed opioids for chronic pain misuse them. Between 8-12% develop an opioid use disorder. ~4-6% who misuse prescription opioids transition to heroin. High rate of relapse related to neurobiological changes that accompany addiction. “40 to 60% of patients treated for addiction relapse within a year, and the rate is highest for tobacco addiction”. Onset, severity, and management of condition affected by interactions of biological and behavioral variables analogous to other chronic diseases. An individual’s treatment plan must be assessed continually and modified to ensure the plan meets the changing needs. From these interviews, we learned more about surgeries and drugs, sober houses, transportation to AA, volunteer calls, patient discharge after NARCAN, the problems of stigma and lack of education, and the significance of prior trauma plus mental health issues on opiate abuse. To focus our efforts, we wondered: How Can We increase patient’s utility from the hospital’s program, adapt the treatment to each individual patient, catch risk factors and give support before a relapse/follow-up effectively after patients have been discharged, and identify and target more at-risk groups? We reframed the problems, recognizing that our solution must: streamline volunteer process and boost morale.',
-    imageLinks: ['/projects/hospital-primary.jpeg'],
+      'Currently, prescription pain medication abuse, as well as heroin use, are growing epidemics in the United States. How can we address this epidemic on a local scale, reducing readmission rates of addicts to Yale New Haven Hospital? Roughly 21-29% of patients prescribed opioids for chronic pain misuse them. Between 8-12% develop an opioid use disorder. ~4-6% who misuse prescription opioids transition to heroin. High rate of relapse related to neurobiological changes that accompany addiction. “40 to 60% of patients treated for addiction relapse within a year, and the rate is highest for tobacco addiction”. Onset, severity, and management of condition affected by interactions of biological and behavioral variables analogous to other chronic diseases. An individual’s treatment plan must be assessed continually and modified to ensure the plan meets the changing needs. From these interviews, we learned more about surgeries and drugs, sober houses, transportation to AA, volunteer calls, patient discharge after NARCAN, the problems of stigma and lack of education, and the significance of prior trauma plus mental health issues on opiate abuse. To focus our efforts, we wondered: How Can We increase patient’s utility from the hospital’s program, adapt the treatment to each individual patient, catch risk factors and give support before a relapse/follow-up effectively after patients have been discharged, and identify and target more at-risk groups? We reframed the problems, recognizing that our solution must: streamline volunteer process and boost morale. To reduce the readmission rate of opioid addicts, we aimed to develop preventive solutions. Solution: A wristband, that every patient treated for opioid addiction can take with them when they begin out of hospital treatment. Aim: The wrist band has the phone numbers of local helplines and works as a constant reminder for patients that  when they need help, these are resources they can reach out to immediately. Next steps: While our primary contact at New Haven Health is enthusiastic about usefulness of the wristband, our next step is to test the effectiveness of the solution. This means distributing wristbands at the hospital and following up on a sample of patients on their usefulness.',
+    imageLinks: [
+      '/projects/hospital-primary.jpeg',
+      '/projects/hospital1.png',
+      '/projects/hospital2.png',
+      '/projects/hospital3.png',
+      '/projects/hospital4.png',
+      '/projects/hospital5.png',
+      '/projects/hospital6.png',
+      '/projects/hospital7.png',
+      '/projects/hospital8.png',
+      '/projects/hospital9.png',
+    ],
     year: '2017-2018',
   },
   bethel: {
@@ -196,25 +224,32 @@ export const ProjectContent = {
     summary:
       'Designing a coloring book to ease childhood adoption into homeless shelters',
     description:
-      'Members of our Beth-El Center team worked with a local homeless shelter in Milford, CT to help reduce childhood trauma. Over the course of the project, our team realized that we could not simply make the environment as appealing as possible to children because they might then create excessive positive associations with homeless shelters. Instead, we needed to focus on creating a comforting and nurturing environment for children. After prototyping an idea for a portable bathroom light and a coloring book, we delivered a coloring book to the Beth-El Center designed to acclimate children to the shelter more quickly.',
-    imageLinks: ['/projects/bethel-primary.png'],
+      "Members of our Beth-El Center team worked with a local homeless shelter in Milford, CT to help reduce childhood trauma. Our project resulted in a potential design for a portable bathroom light their children could use during the night and a ready-to-use coloring book to help become acquainted with the shelter. Over the course of the project, our team realized that we could not simply make the environment as appealing as possible to children because they might then create excessive positive associations with homeless shelters. Instead, we needed to focus on creating a comforting and nurturing environment for children. Once we had figured out what area we wanted to focus on, our team attempted to create two different ways to improve the comfort level of the shelter. One method focused on helping children become used to the shelter more quickly. New environments can certainly be scary for children especially when they are filled with strangers. We wanted to help children understand the physical space of the shelter, the people who lived and worked in it, and any important rules or reminders. The second method was targeted at addressing the specific bed wetting issue that many children in the shelter exhibited. After talking with Dr. Gosling and staff, we deduced that the issue was caused by children not wanting to go to the bathroom tonight. We wanted to find a way to make children more comfortable with getting up to go to the bathroom at night, despite the environment and shared bathroom situation. We discussed various options to help make students understand their environment more like creating a 'Who's Who' board and eventually settled on the idea of creating of a coloring book about the Beth-El Center. Each page would describe a different part of the shelter, introduce a person in the shelter, or help explain a rule or provide a reminder. Once we nailed down what we wanted from this coloring book, we got started creating a proof of concept prototype. We started by sketching the book by hand, and then used Adobe Illustrator to transform real pictures of the Beth-el Center into line drawings that could be colored in. We incorporated games and hand drawn sketches into our coloring book. In addition to introducing the kids to the staff this coloring book could be an activity that could distract the kids during their intro session (where they normally are expected to stay quiet in the front room while their parent fills out paper work). After closely examining the situation with the bathroom, it was apparent that we wanted to correct the lighting situation. The commercial style lighting was very bright especially for anyone who had just woken up. We chose to prototype various types of handheld lights children could take to the bathroom which would provide a soft glow and a comforting shape and feel. We learned to create circuits with rechargeable batteries, and devised a circuit where the leaf would be turned off while charging on its stand and turn on when removed from the charger. We were also able to demonstrate a working prototype for our portable bathroom light design. The design featured the comforting design and soft light we were looking for, while also providing a rechargeable magnetic dock setup to ensure it was easy to use and maintain. Working with the Beth-El Center was a wonderful privilege, and we are so happy we were able to help them pursue their incredible mission of helping homeless families get back on their feet!",
+    imageLinks: [
+      '/projects/bethel-primary.png',
+      '/projects/bethel1.png',
+      '/projects/bethel2.png',
+      '/projects/bethel3.png',
+      '/projects/bethel4.png',
+      '/projects/bethel5.png',
+    ],
     year: '2016-2017',
   },
-  koffee: {
+  /*koffee: {
     title: '',
     summary:
       'Creating random human connections and a sense of community in a coffee shop',
     description: '',
     imageLinks: ['/projects/koffee-primary.jpeg'],
     year: '2016-2017',
-  },
-  shelter: {
+  },*/
+  /*shelter: {
     title: '',
     summary: 'Improving the Learning Center of the New Reach Center',
     description: '',
     imageLinks: ['/projects/shelter-primary.png'],
     year: '2016-2017',
-  },
+  },*/
 }
 
 export const CurrentBoard = [
