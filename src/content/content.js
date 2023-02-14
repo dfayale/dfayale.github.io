@@ -266,7 +266,7 @@ export const CurrentBoard = [
   {
     name: 'David Peng',
     role: 'Treasurer',
-    headshotLink: '/headshots/david.png',
+    headshotLink: '/headshots/david2.jpg',
   },
   {
     name: 'Vanessa Cheng',
