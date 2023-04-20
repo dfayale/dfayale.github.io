@@ -261,30 +261,27 @@ export const CurrentBoard = [
   {
     name: 'Lydia Lee',
     role: 'Co-President',
-    headshotLink: '/headshots/lydia.jpeg',
+    headshotLink: '/headshots/lydialee.png',
   },
   {
     name: 'David Peng',
     role: 'Treasurer',
-    headshotLink: '/headshots/david2.jpg',
+    headshotLink: '/headshots/davidpeng.jpeg',
   },
   {
     name: 'Vanessa Cheng',
     role: 'Team Lead',
-    headshotLink: '/headshots/wesley.jpeg',
-    // headshotLink: '/headshots/vanessacheng.jpeg', // TODO
+    headshotLink: '/headshots/vanessacheng.png',
   },
   {
     name: 'Ke Lin',
     role: 'Team Lead',
-    headshotLink: '/headshots/wesley.jpeg',
-    // headshotLink: '/headshots/kelin.jpeg', // TODO
+    headshotLink: '/headshots/kelin.jpeg',
   },
   {
     name: 'James Park',
     role: 'Team Lead',
-    headshotLink: '/headshots/wesley.jpeg',
-    // headshotLink: '/headshots/jamespark.jpeg', // TODO
+    headshotLink: '/headshots/jamespark.jpeg',
   },
   {
     name: 'Wesley Wong',
@@ -294,14 +291,13 @@ export const CurrentBoard = [
   {
     name: 'Daven Yadev',
     role: 'Team Lead',
-    headshotLink: '/headshots/wesley.jpeg',
+    headshotLink: '/headshots/davenyadev.jpeg',
     // headshotLink: '/headshots/davenyadev.jpeg', // TODO
   },
   {
     name: 'Angela Zhao',
     role: 'Team Lead',
-    headshotLink: '/headshots/wesley.jpeg',
-    // headshotLink: '/headshots/angelazhao.jpeg', // TODO
+    headshotLink: '/headshots/angelazhao.jpeg',
   },
 ]
 
