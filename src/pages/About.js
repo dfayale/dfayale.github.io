@@ -1,7 +1,6 @@
 import React from 'react'
 import CurrentBoardImage from '../img/current-board.svg'
-import AlumniImage from '../img/alumni.svg'
-import { CurrentBoard, Alumni } from '../content/content'
+import { CurrentBoard} from '../content/content'
 
 const getHeadshots = (directory) => {
   const members = []
@@ -50,13 +49,13 @@ export const About = () => {
         </div>
       </div>
       <div class="about-headshots">{getHeadshots(CurrentBoard)}</div>
-      <div class="d-flex justify-content-center">
+      {/* <div class="d-flex justify-content-center">
         <div class="brick-title title-alumni">
           <img src={AlumniImage} alt="alumni" />
           <span class="sr-only">Alumni</span>
         </div>
       </div>
-      <div class="about-headshots">{getHeadshots(Alumni)}</div>
+      <div class="about-headshots">{getHeadshots(Alumni)}</div> */}
     </div>
   )
 }

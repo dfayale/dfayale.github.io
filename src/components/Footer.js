@@ -8,16 +8,21 @@ export const Footer = () => {
           <a href="mailto:yale@designformamerica.com">
             <i class="fa fa-envelope fa-2x footer mx-2"></i>
           </a>
-          <a href="https://www.facebook.com/DfaYale/">
+          {/* <a href="https://www.facebook.com/DfaYale/">
             <i class="fab fa-facebook fa-2x footer mx-2"></i>
+          </a> */}
+          <a href="https://www.instagram.com/dfayale/">
+            <i class="fab fa-instagram fa-2x footer mx-2"></i>
           </a>
         </div>
         <h5 class="footer">Design for America at Yale</h5>
         <small class="footer">
           <a href="/attribution"> Icon Attribution</a>
           <br />
-          Site designed by Elizabeth Brooks, Lance Tan, Linna Yao, and
-          Christopher Nathan
+          Site designed by Elizabeth Brooks, Lance Tan, Linna Yao,
+          Christopher Nathan, David Peng. 
+          <br />
+          © 2023 Design for America at Yale
         </small>
       </div>
     </footer>

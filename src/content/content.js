@@ -254,103 +254,92 @@ export const ProjectContent = {
 
 export const CurrentBoard = [
   {
-    name: 'Sharon Handoko',
-    role: 'Co-President',
-    headshotLink: '/headshots/sharon.jpeg',
-  },
-  {
-    name: 'Sam Adrianzen',
-    role: 'Co-President',
-    headshotLink: '/headshots/sam.jpeg',
-  },
-  {
-    name: 'Stephanie Hu',
-    role: 'Curriculum Chair',
-    headshotLink: '/headshots/steph.jpeg',
-  },
-  {
-    name: 'Juanita Castaneda Norena',
-    role: 'Curriculum Chair',
-    headshotLink: '/headshots/juanita.jpeg',
-  },
-  {
-    name: 'Wesley Wong',
-    role: 'Treasurer',
-    headshotLink: '/headshots/wesley.jpeg',
-  },
-  {
-    name: 'Doris Chen',
-    role: 'Team Lead',
-    headshotLink: '/headshots/doris.jpeg',
-  },
-  {
     name: 'Anna Zhang',
-    role: 'Team Lead',
+    role: 'Co-President',
     headshotLink: '/headshots/anna.png',
   },
   {
-    name: 'Christopher Nathan',
-    role: 'Team Lead',
-    headshotLink: '/headshots/chris.jpg',
-  },
-  {
     name: 'Lydia Lee',
-    role: 'Team Lead',
-    headshotLink: '/headshots/lydia.jpeg',
+    role: 'Co-President',
+    headshotLink: '/headshots/lydialee.png',
   },
-  {
-    name: 'Thuy Pham',
-    role: 'Team Lead',
-    headshotLink: '/headshots/thuy.jpeg',
-  },
-  { name: 'Jen Wang', role: 'Team Lead', headshotLink: '/headshots/jen.jpeg' },
   {
     name: 'David Peng',
-    role: 'Team Lead',
-    headshotLink: '/headshots/david.png',
+    role: 'Treasurer',
+    headshotLink: '/headshots/davidpeng.jpeg',
   },
   {
-    name: 'Catherine Wang',
+    name: 'Vanessa Cheng',
     role: 'Team Lead',
-    headshotLink: '/headshots/catherine.jpeg',
+    headshotLink: '/headshots/vanessacheng.png',
+  },
+  {
+    name: 'Ke Lin',
+    role: 'Team Lead',
+    headshotLink: '/headshots/kelin.jpeg',
+  },
+  {
+    name: 'James Park',
+    role: 'Team Lead',
+    headshotLink: '/headshots/jamespark.jpeg',
+  },
+  {
+    name: 'Wesley Wong',
+    role: 'Team Lead',
+    headshotLink: '/headshots/wesley.jpeg',
+  },
+  {
+    name: 'Daven Yadev',
+    role: 'Team Lead',
+    headshotLink: '/headshots/davenyadev.jpeg',
+    // headshotLink: '/headshots/davenyadev.jpeg', // TODO
+  },
+  {
+    name: 'Angela Zhao',
+    role: 'Team Lead',
+    headshotLink: '/headshots/angelazhao.jpeg',
   },
 ]
 
 export const Alumni = [
-  {
-    name: 'Linna Yao',
-    previous_role: 'Co-President 2020-2021',
-    current_role: 'Senior Advisor',
-    headshotLink: '/headshots/linna.jpg',
-  },
-  /* {
-    name: 'Sophie Lai',
-    previous_role: 'Co-President 2020-2021',
-    current_role: 'Senior Advisor',
-    headshotLink: '',
-  },*/
-  {
-    name: 'Nathan Paumier',
-    previous_role: 'Co-President 2019-2020',
-    current_role: 'Senior Advisor',
-    headshotLink: '/headshots/nathan.jpeg',
-  },
-  {
-    name: 'Elizabeth Qian-Wang',
-    previous_role: 'Co-President 2019-2020',
-    current_role: 'Senior Advisor',
-    headshotLink: '/headshots/elizabeth_qw.jpg',
-  },
-  /*{
-    name: 'Elizabeth Brooks',
-    previous_role: 'Co-President 2018-2019',
-    current_role: 'Senior Advisor',
-    headshotLink: '',
-  },
-  {
-    name: 'Lance Tan',
-    previous_role: '',
-    current_role: 'Senior Advisor',
-    headshotLink: '',
-  },*/
+  // {
+  //   name: 'Sharon Handoko',
+  //   previous_role: 'Co-President 21-22',
+  //   headshotLink: '/headshots/sharon.jpeg',
+  // },
+  // {
+  //   name: 'Sam Adrianzen',
+  //   previous_role: 'Co-President 21-22',
+  //   headshotLink: '/headshots/sam.jpeg',
+  // },
+  // {
+  //   name: 'Linna Yao',
+  //   previous_role: 'Co-President 20-21',
+  //   // current_role: 'Senior Advisor',
+  //   headshotLink: '/headshots/linna.jpg',
+  // },
+  // {
+  //   name: 'Sophie Lai',
+  //   previous_role: 'Co-President 20-21',
+  //   // current_role: 'Senior Advisor',
+  //   headshotLink: '',
+  // },
+  // {
+  //   name: 'Nathan Paumier',
+  //   previous_role: 'Co-President 19-20',
+  //   // current_role: 'Senior Advisor',
+  //   headshotLink: '/headshots/nathan.jpeg',
+  // },
+  // {
+  //   name: 'Elizabeth Qian-Wang',
+  //   previous_role: 'Co-President 19-20',
+  //   // current_role: 'Senior Advisor',
+  //   headshotLink: '/headshots/elizabeth_qw.jpg',
+  // },
+  // {
+  //   name: 'Elizabeth Brooks',
+  //   previous_role: 'President 18-19',
+  //   // current_role: 'Senior Advisor',
+  //   headshotLink: '',
+  // },
 ]
